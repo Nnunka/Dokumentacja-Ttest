@@ -1,0 +1,208 @@
+	\newpage
+\section{Implementacja}		%4
+
+
+Listing \ref{lst:listing-java} (s. \pageref{lst:listing-java}) przedstawia implementacje jednego z przycisków którego zadaniem jest otworzenie nowej strony oznaczonej w 5 linijce kodu po kliknięciu. 
+\begin{lstlisting}[caption=Menu - Działanie Przycisków, label={lst:listing-java}, language=Java]
+	button_1 = (Button) findViewById(R.id.button_1);
+	button_1.setOnClickListener(new View.OnClickListener() {
+		@Override
+		public void onClick(View view) {
+			Intent intent = new Intent(MainActivity.this, latarka.class);
+			startActivity(intent);
+		}
+	});
+\end{lstlisting}
+
+
+Listing \ref{lst:listing-java2} (s. \pageref{lst:listing-java2}) przedstawia włączenie latarki. Jeśli telefon ma latarkę i mamy do niej dostęp, latarka zostanie uruchomiona i wyświetli się nam komunikat o włączeniu. Jeżeli nie, to dostaniemy odpowiednie powiadomienie o niepowodzeniu operacji. \\
+W podobny sposób wygląda metoda z wyłączeniem latarki. W 6 linijce trzeba zamienić wartość na false oraz w 7 wierszu nadpisać wyświetlany komunikat na odpowiedni.
+\begin{lstlisting}[caption=Latarka - Włączenie/wyłączenie latarki, label={lst:listing-java2}, language=Java]
+	private void flashLightOn(){
+		CameraManager cameraManager = (CameraManager) getSystemService(Context.CAMERA_SERVICE);
+		try{
+			assert cameraManager != null;
+			String cameraId = cameraManager.getCameraIdList()[0];
+			cameraManager.setTorchMode(cameraId, true);
+			Toast.makeText(latarka.this, "Latarka wlaczona", Toast.LENGTH_SHORT).show();
+		}
+		catch(CameraAccessException e){
+			Log.e("Camera Problem", "Nie mozna uruchomic latarki");
+		}
+	}
+\end{lstlisting}
+
+\newpage
+
+
+Aby zaimplementować tryb ciemny potrzebujemy dostępu do modyfikowania interfejsu. Listing \ref{lst:listing-java3} (s. \pageref{lst:listing-java3}) pokazuje jak go uzyskać. 
+\begin{lstlisting}[caption=Tryb Ciemny - Modyfikowanie interfejsu, label={lst:listing-java3}, language=Java]
+	SharedPreferences sharedPreferences = getSharedPreferences("sharedPrefs", MODE_PRIVATE);
+	final SharedPreferences.Editor editor = sharedPreferences.edit();
+	final boolean isDarkModeOn = sharedPreferences.getBoolean("isDarkModeOn", false);
+\end{lstlisting}
+
+
+ Listing \ref{lst:listing-java4} (s. \pageref{lst:listing-java4}) przedstawia metodę odpowiedzialną za działanie trybu ciemnego. Domyślnie aplikacja korzysta z trybu jansego, co pokazuje kod od 5 do 10 linijki. Jednak po naciśnięciu na przycisku, zmieniamy kolorystyke aplikacji na ciemną (13-15 linijak), dodatkowo od 16 linijki zmieniamy przycisk na czerwony, aktualne logo na ciemne oraz wyświetlamy stosowny komunikat.
+\begin{lstlisting}[caption=Tryb Ciemny - Włączenie/wyłączenie trybu ciemnego, label={lst:listing-java4}, language=Java]
+	toggle_tryb_ciemny.setOnClickListener(new View.OnClickListener() {
+		@Override
+		public void onClick(View view) {
+			if(isDarkModeOn){
+				AppCompatDelegate.setDefaultNightMode(AppCompatDelegate.MODE_NIGHT_NO);
+				editor.putBoolean("isDarkModeOn", false);
+				editor.apply();
+				toggle_tryb_ciemny.setImageResource(R.drawable.tryb_ciemny_off);
+				logo.setImageResource(R.drawable.logo_white);
+				Toast.makeText(tryb_ciemny.this, "Tryb ciemny wylaczony", Toast.LENGTH_SHORT).show();
+			}
+			else {
+				AppCompatDelegate.setDefaultNightMode(AppCompatDelegate.MODE_NIGHT_YES);
+				editor.putBoolean("isDarkModeOn", true);
+				editor.apply();
+				toggle_tryb_ciemny.setImageResource(R.drawable.tryb_ciemny_on);
+				logo.setImageResource(R.drawable.logo_black);
+				Toast.makeText(tryb_ciemny.this, "Tryb ciemny wlaczony", Toast.LENGTH_SHORT).show();
+			}
+		}
+	});
+\end{lstlisting}
+
+\newpage
+
+
+Listing \ref{lst:listing-java5} (s. \pageref{lst:listing-java5}) prezentuje uzyskanie dostępu do sensora, za pomocą którego sprawdzimy działanie czujnika zbliżeniowego.
+\begin{lstlisting}[caption=Czujnik Zbliżeniowy - Dostęp do czujnika, label={lst:listing-java5}, language=Java]
+	SensorManager sensorManager;
+	sensorManager = (SensorManager)getSystemService(SENSOR_SERVICE);
+	if(sensorManager!=null) {
+		Sensor proximitySensor = sensorManager.getDefaultSensor(Sensor.TYPE_PROXIMITY);
+		if(proximitySensor!=null) {
+			sensorManager.registerListener(this, proximitySensor, sensorManager.SENSOR_DELAY_NORMAL);
+		}
+	}
+\end{lstlisting}
+
+
+Metoda onSensorChanged ukazana na listingu \ref{lst:listing-java6} (s. \pageref{lst:listing-java6}) sprawdza czy przy czujniku jest obiekt, zależnie od wyniku zostanie wyświetlony odpowiedni komunikat.
+\begin{lstlisting}[caption=Czujnik Zbliżeniowy - Działanie, label={lst:listing-java6}, language=Java]
+	@Override
+	public void onSensorChanged(SensorEvent sensorEvent) {
+		if(sensorEvent.sensor.getType()==Sensor.TYPE_PROXIMITY) {
+			if(sensorEvent.values[0]==0) {
+				((TextView)findViewById(R.id.sensor)).setText("Przy czujniku jest obiekt");
+			} else {
+				((TextView)findViewById(R.id.sensor)).setText("Przyloz obiekt do czujnika");
+			}
+		}
+	}
+\end{lstlisting}
+
+
+Aby wdrożyć test aplikacji trzeba sprawdzić pozwolenie, w tym wypadku interesuje nas uprawnienie dostępu do lokalizacji, co obrazuje listing  \ref{lst:listing-java7} (s. \pageref{lst:listing-java7}). 
+\begin{lstlisting}[caption=GPS - Dostęp do lokazlizacji, label={lst:listing-java7}, language=Java]
+	if(ContextCompat.checkSelfPermission(gps.this, Manifest.permission.ACCESS_FINE_LOCATION) != PackageManager.PERMISSION_GRANTED) {
+		ActivityCompat.requestPermissions(gps.this, new String[]{
+			Manifest.permission.ACCESS_FINE_LOCATION
+		}, 1000);
+	}
+\end{lstlisting}
+
+\newpage
+
+
+Metoda onLocationChanged przedstawiona jako listing \ref{lst:listing-java8} (s. \pageref{lst:listing-java8}) odpowiada za wyświetlenie powiadomienia push-up wyświetlającego długość i szerokość geograficzną obecnej lokalizacji oraz pobiera adres tej lokalizacji na podstawie długości i szerokości geograficznej, który wyświetla jako tekst.
+\begin{lstlisting}[caption=GPS - Wysliwetlanie lokalizacji, label={lst:listing-java8}, language=Java]
+	@Override
+	public void onLocationChanged(Location location) {
+		Toast.makeText(this, ""+location.getLatitude()+", "+location.getLongitude(), Toast.LENGTH_SHORT).show();
+		try {
+			Geocoder geocoder = new Geocoder(gps.this, Locale.getDefault());
+			List<Address> addresses = geocoder.getFromLocation(location.getLatitude(), location.getLongitude(), 1);
+			String address = addresses.get(0).getAddressLine(0);
+			text_location.setText(address);
+		} catch (Exception e) {
+			e.printStackTrace();
+		}
+	}
+\end{lstlisting}
+
+
+Listing \ref{lst:listing-java9} (s. \pageref{lst:listing-java9}) przedstawia implementacje MediaPlayer (linijka 1) do którego podłączamy dźwięk. Teraz w prosty sposób możemy wywołać dźwięk poprzez medote OnClick,
+\begin{lstlisting}[caption= Dźwięk - Działanie z wykorzystaniem MediaPlayer, label={lst:listing-java9}, language=Java]
+	final MediaPlayer sound = MediaPlayer.create(this, R.raw.dzwiek_audio);
+	Button btn_dzwiek = findViewById(R.id.btn_dzwiek);
+	btn_dzwiek.setOnClickListener(new View.OnClickListener() {
+		@Override
+		public void onClick(View view) {
+			sound.start();
+		}
+	});
+\end{lstlisting}
+
+\newpage
+
+
+Aby test mikrofonu spełniał swoje zadanie trzeba sprawdzić autoryzację aplikacji. W tym wypadku uzyskujemy pozwolenie na nagrywanie audio, co przedstawia listing \ref{lst:listing-java10} (s. \pageref{lst:listing-java10}). 
+\begin{lstlisting}[caption=Mikrofon - Dostęp do nagrywania audio, label={lst:listing-java10}, language=Java]
+	private void getMicrophonePermission() {
+		if(ContextCompat.checkSelfPermission(this, Manifest.permission.RECORD_AUDIO) == PackageManager.PERMISSION_DENIED) {
+			ActivityCompat.requestPermissions(this, new String[] {Manifest.permission.RECORD_AUDIO}, MICROPHONE_PERMISSION_CODE);
+		}
+	}
+\end{lstlisting}
+
+
+Listing \ref{lst:listing-java11} (s. \pageref{lst:listing-java11}) przedstawia metodę z wykorzystaniem MediaRecorder który służy do nagrywania dźwięku lub obrazu. W tym wypadku MediaRecorder wykorzystany zostanie do nagrania dźwięku przez mikrofon w telefonie. Od 4 do 7 linijki określamy źródło dźwięku, format wyjściowy, zaznaczenie deskryptora pliku, definiowanie kodowania dźwięku.
+\begin{lstlisting}[caption=Mikrofon - Włączenie nagrywania, label={lst:listing-java11}, language=Java]
+	public void btnRecordPressed(View v) {
+		try {
+			mediaRecorder = new MediaRecorder();
+			mediaRecorder.setAudioSource(MediaRecorder.AudioSource.MIC);
+			mediaRecorder.setOutputFormat(MediaRecorder.OutputFormat.THREE_GPP);
+			mediaRecorder.setOutputFile(getRecordingFilePath());
+			mediaRecorder.setAudioEncoder(MediaRecorder.AudioEncoder.AMR_NB);
+			mediaRecorder.prepare();
+			mediaRecorder.start();
+			
+			Toast.makeText(this, "Nagrywanie rozpoczete", Toast.LENGTH_LONG).show();
+		}
+		catch (Exception e) {
+			e.printStackTrace();
+	}
+\end{lstlisting}
+	
+\newpage
+	
+	
+Po naciśnięciu przycisku "Stop" nagranie zostaje zakończone, co obrazuje listing \ref{lst:listing-java12} (s. \pageref{lst:listing-java12}). MediaRecorder kończy nagrywanie, a opcja realse użyta w 3 linijce nie pozwoli na ponowne uruchomienie pliku dźwiękowego w celu dogrania do niego dźwięku.
+\begin{lstlisting}[caption=Mikrofon - Przerwanie nagrywania, label={lst:listing-java12}, language=Java]
+	public void btnStopPressed(View v) {
+		mediaRecorder.stop();
+		mediaRecorder.release();
+		mediaRecorder = null;
+			
+		Toast.makeText(this, "Nagrywanie zakonczone", Toast.LENGTH_LONG).show();
+	}
+\end{lstlisting}
+	
+Obiekt MediaPlayer wykorzystany w listingu \ref{lst:listing-java13} (s. \pageref{lst:listing-java13}) służy do obsługi odtwarzania plików audio i wideo. W 4 linijce kodu określamy skąd ma zostać pobrany plik, a następnie plik z dźwiękiem zostanie włączony.
+\begin{lstlisting}[caption=Mikrofon - Odtworzenie nagrania, label={lst:listing-java13}, language=Java]
+	public void btnPlayPressed(View v) {
+		try {
+			mediaPlayer = new MediaPlayer();
+			mediaPlayer.setDataSource(getRecordingFilePath());
+			mediaPlayer.prepare();
+			mediaPlayer.start();
+				
+			Toast.makeText(this, "Odtwarzanie nagrania", Toast.LENGTH_LONG).show();
+		}
+		catch(Exception e){
+			e.printStackTrace();
+		}
+	}
+\end{lstlisting}
+
+
+
+
