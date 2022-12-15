@@ -6,9 +6,10 @@
 \contentsline {subsection}{\numberline {3.2}Środowisko programisty/Składanie dokumentów - Latex}{9}{subsection.3.2}%
 \contentsline {subsection}{\numberline {3.3}Czym jest Git oraz do czego służy?}{10}{subsection.3.3}%
 \contentsline {section}{\numberline {4}Implementacja}{13}{section.4}%
-\contentsline {section}{\numberline {5}Testowanie}{19}{section.5}%
-\contentsline {section}{\numberline {6}Podręcznik użytkownika}{20}{section.6}%
-\contentsline {section}{Literatura}{21}{section.6}%
-\contentsline {section}{Spis rysunków}{21}{section.6}%
-\contentsline {section}{Spis tabel}{22}{section.6}%
-\contentsline {section}{Spis listingów}{23}{section.6}%
+\contentsline {section}{\numberline {5}Testowanie}{21}{section.5}%
+\contentsline {subsection}{\numberline {5.1}Testowanie latarki.}{21}{subsection.5.1}%
+\contentsline {section}{\numberline {6}Podręcznik użytkownika}{22}{section.6}%
+\contentsline {section}{Literatura}{23}{section.6}%
+\contentsline {section}{Spis rysunków}{23}{section.6}%
+\contentsline {section}{Spis tabel}{24}{section.6}%
+\contentsline {section}{Spis listingów}{25}{section.6}%

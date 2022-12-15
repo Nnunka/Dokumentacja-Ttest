@@ -112,7 +112,7 @@ Aby wdrożyć test aplikacji trzeba sprawdzić pozwolenie, w tym wypadku interes
 
 
 Metoda onLocationChanged przedstawiona jako listing \ref{lst:listing-java8} (s. \pageref{lst:listing-java8}) odpowiada za wyświetlenie powiadomienia push-up wyświetlającego długość i szerokość geograficzną obecnej lokalizacji oraz pobiera adres tej lokalizacji na podstawie długości i szerokości geograficznej, który wyświetla jako tekst.
-\begin{lstlisting}[caption=GPS - Wysliwetlanie lokalizacji, label={lst:listing-java8}, language=Java]
+\begin{lstlisting}[caption=GPS - Wyświetlanie lokalizacji, label={lst:listing-java8}, language=Java]
 	@Override
 	public void onLocationChanged(Location location) {
 		Toast.makeText(this, ""+location.getLatitude()+", "+location.getLongitude(), Toast.LENGTH_SHORT).show();
@@ -203,6 +203,73 @@ Obiekt MediaPlayer wykorzystany w listingu \ref{lst:listing-java13} (s. \pageref
 	}
 \end{lstlisting}
 
+\newpage
 
+Metoda przedstawiona na listingu \ref{lst:listing-java14} (s. \pageref{lst:listing-java14}), odpowiada za uruchomienie aparatu w telefonie po naciśnięciu przycisku o id btnCam. Od 6 do 8 linijki znajduję się kod opowiedzialny za uruchomienie aplikacji aparatu.
+\begin{lstlisting}[caption=Aparat - Włączenie aparatu, label={lst:listing-java14}, language=Java]
+	btnCam = findViewById(R.id.btnCam);
+	btnCam.setOnClickListener(new View.OnClickListener() {
+		@Override
+		public void onClick(View view) {
+			try {
+				Intent intent = new Intent();
+				intent.setAction(MediaStore.ACTION_IMAGE_CAPTURE);
+				startActivity(intent);
+			} catch (Exception e) {
+				e.printStackTrace();
+			}
+		}
+	});
+\end{lstlisting}
+
+Pętla switch (rozpoczynająca się w linijce 6) przedstawiona w listingu \ref{lst:listing-java15} (s. \pageref{lst:listing-java15}) odpowiada za informowanie użytkowanika o aktualnym statusie wifi. W linijce 7 sprawdzamy czy Wifi jest włączone, jeśli jest włączone - wyświetlamy odpowiedni tekst, w 10 linijce sprawdzamy czy wifi jest wyłączone na danym urządzeniu, jeśli tak zostaje wyświetlony adekwatny tekst.
+\begin{lstlisting}[caption=Wifi - Sprawdzenie statusu Wifi, label={lst:listing-java15}, language=Java]
+	private BroadcastReceiver wifiStateReceiver = new BroadcastReceiver() {
+		@Override
+		public void onReceive(Context context, Intent intent) {
+			int wifiStateExtra = intent.getIntExtra(WifiManager.EXTRA_WIFI_STATE,
+			WifiManager.WIFI_STATE_UNKNOWN);
+			switch (wifiStateExtra) {
+				case WifiManager.WIFI_STATE_ENABLED:
+				wifiSwitch.setText("WiFi jest wlaczone, mozna pobrac informacje");
+				break;
+				case WifiManager.WIFI_STATE_DISABLED:
+				wifiSwitch.setText("WiFi jest wylaczone, wlacz aby pobrac informacje");
+				break;
+			}
+		}
+	};
+\end{lstlisting}
+
+\newpage
+
+Metoda przedstawiona na listingu \ref{lst:listing-java16} (s. \pageref{lst:listing-java16}) odpowiada za pobranie informacji o sieci wifi do której urządzenie jest obecnie podłączone oraz wyświetlenia tych informacji. Od 5 do 9 linijki mamy kolejno pobranie informacji o adresie IP telefonu, sformatowanie pobranego IP ma tekst, pobranie adresu MAC routera, SSID oraz wskaźnika mocy naszego połączenia. Pobrane informacje implementujmey jako string (od 11 do 15 linijki) i wyświetlamy jako tekst (linijka 17).
+\begin{lstlisting}[caption=Wifi - Pobieranie informacji o Wifi, label={lst:listing-java16}, language=Java]
+    public void getWifiInformation(View view) {
+	WifiManager wifiManager = (WifiManager) getApplicationContext().getSystemService(WIFI_SERVICE);
+	WifiInfo wifiInfo = wifiManager.getConnectionInfo();
+	
+	int ip = wifiInfo.getIpAddress();
+	String ipAddress = Formatter.formatIpAddress(ip);
+	String bssid = wifiInfo.getBSSID();
+	String ssid = wifiInfo.getSSID();
+	int rssi = wifiInfo.getRssi();
+		
+	String info =
+	"\n Adres IP: " + ipAddress +
+	"\n Adres MAC Routera: " + bssid +
+	"\n SSID: " + ssid +
+	"\n Wskaznik mocy: " + rssi;
+	txtWifiInfo.setText(info);	
+}
+\end{lstlisting}
+
+
+Kod ukazany w listingu \ref{lst:listing-java17} (s. \pageref{lst:listing-java17}) jest odpowiedzialny za pobranie marki i modeu urządzenia z którego obecnie korzystamy i wyświetlenie tej informacji jako tekst.
+\begin{lstlisting}[caption=Wyniki - Pobranie marki i modelu urządzenia, label={lst:listing-java17}, language=Java]
+	model = (TextView) findViewById(R.id.model);
+	String stringBuildModel = "Marka i model: " + Build.MANUFACTURER + " " + Build.MODEL;
+	model.setText(stringBuildModel);
+\end{lstlisting}
 
 

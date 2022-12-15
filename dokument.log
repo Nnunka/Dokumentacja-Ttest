@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.10.14)  11 DEC 2022 20:03
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.10.14)  14 DEC 2022 22:21
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1087,7 +1087,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-10.48892pt}.
 
 [3]
-<rys/logo_black.png, id=85, 192.72pt x 67.452pt>
+<rys/logo_black.png, id=90, 192.72pt x 67.452pt>
 File: rys/logo_black.png Graphic file (type png)
 <use rys/logo_black.png>
 Package pdftex.def Info: rys/logo_black.png  used on input line 20.
@@ -1102,7 +1102,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 27--28
 
  []
 
-<rys/Layout_2.jpg, id=87, 508.90125pt x 284.262pt>
+<rys/Layout_2.jpg, id=92, 508.90125pt x 284.262pt>
 File: rys/Layout_2.jpg Graphic file (type jpg)
 <use rys/Layout_2.jpg>
 Package pdftex.def Info: rys/Layout_2.jpg  used on input line 31.
@@ -1120,7 +1120,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 37--38
 
  []
 
-<rys/Layout_1.jpg, id=97, 452.892pt x 302.3295pt>
+<rys/Layout_1.jpg, id=102, 452.892pt x 302.3295pt>
 File: rys/Layout_1.jpg Graphic file (type jpg)
 <use rys/Layout_1.jpg>
 Package pdftex.def Info: rys/Layout_1.jpg  used on input line 41.
@@ -1162,7 +1162,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-10.48892pt}.
 
 [6]
-<rys/menu.jpg, id=107, 1084.05pt x 2409.0pt>
+<rys/menu.jpg, id=112, 1084.05pt x 2409.0pt>
 File: rys/menu.jpg Graphic file (type jpg)
 <use rys/menu.jpg>
 Package pdftex.def Info: rys/menu.jpg  used on input line 15.
@@ -1226,7 +1226,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 29--30
 
  []
 
-<rys/przyklad_1.jpg, id=126, 694.09312pt x 386.19281pt>
+<rys/przyklad_1.jpg, id=131, 694.09312pt x 386.19281pt>
 File: rys/przyklad_1.jpg Graphic file (type jpg)
 <use rys/przyklad_1.jpg>
 Package pdftex.def Info: rys/przyklad_1.jpg  used on input line 36.
@@ -1245,7 +1245,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-10.48892pt}.
 
 [11 <./rys/przyklad_1.jpg>]
-<rys/przyklad_2.png, id=132, 891.33pt x 766.062pt>
+<rys/przyklad_2.png, id=137, 891.33pt x 766.062pt>
 File: rys/przyklad_2.png Graphic file (type png)
 <use rys/przyklad_2.png>
 Package pdftex.def Info: rys/przyklad_2.png  used on input line 48.
@@ -1315,7 +1315,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-10.48892pt}.
 
-[17]) (./tex/rozdzial5.tex
+[17]
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 22.48892pt, for example:
@@ -1324,7 +1324,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-10.48892pt}.
 
-[18]) (./tex/rozdzial6.tex
+[18]
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 22.48892pt, for example:
@@ -1333,7 +1333,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-10.48892pt}.
 
-[19])
+[19]) (./tex/rozdzial5.tex
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 22.48892pt, for example:
@@ -1343,6 +1343,30 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-10.48892pt}.
 
 [20]
+<rys/punkt5/latarka.jpg, id=409, 1626.075pt x 1626.075pt>
+File: rys/punkt5/latarka.jpg Graphic file (type jpg)
+<use rys/punkt5/latarka.jpg>
+Package pdftex.def Info: rys/punkt5/latarka.jpg  used on input line 25.
+(pdftex.def)             Requested size: 1626.07104pt x 1626.07104pt.
+) (./tex/rozdzial6.tex
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 22.48892pt, for example:
+(fancyhdr)                \setlength{\headheight}{22.48892pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-10.48892pt}.
+
+[21 <./rys/punkt5/latarka.jpg>])
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 22.48892pt, for example:
+(fancyhdr)                \setlength{\headheight}{22.48892pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-10.48892pt}.
+
+[22]
 
 LaTeX Warning: Empty bibliography on input line 78.
 
@@ -1359,7 +1383,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-10.48892pt}.
 
-[21
+[23
 
 ] (./dokument.lot)
 \tf@lot=\write8
@@ -1374,7 +1398,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-10.48892pt}.
 
-[22] (./dokument.lol)
+[24] (./dokument.lol)
 \tf@lol=\write9
 \openout9 = `dokument.lol'.
 
@@ -1391,21 +1415,21 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-10.48892pt}.
 
-[23] (./dokument.aux)
+[25] (./dokument.aux)
 
 LaTeX Warning: There were multiply-defined labels.
 
 Package rerunfilecheck Info: File `dokument.out' has not changed.
-(rerunfilecheck)             Checksum: F144C91A10AAAA20262943A16E858787;2468.
+(rerunfilecheck)             Checksum: 98EF61125CB012B7210D12C399F39798;2647.
 Package logreq Info: Writing requests to 'dokument.run.xml'.
 \openout1 = `dokument.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 24932 strings out of 475071
- 422494 string characters out of 5782907
- 1351516 words of memory out of 5000000
- 45758 multiletter control sequences out of 15000+600000
+ 25047 strings out of 475071
+ 424292 string characters out of 5782907
+ 1350888 words of memory out of 5000000
+ 45814 multiletter control sequences out of 15000+600000
  483942 words of font info for 69 fonts, out of 8000000 for 9000
  1142 hyphenation exceptions out of 8191
  77i,12n,80p,1618b,1738s stack positions out of 10000i,1000n,20000p,200000b,200000s
@@ -1420,10 +1444,10 @@ lic/pl/plr12.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/pl/plr17.pfb><c
 blic/pl/plss12.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/pl/plssbx10.p
 fb><c:/texlive/2022/texmf-dist/fonts/type1/public/pl/plti10.pfb><c:/texlive/202
 2/texmf-dist/fonts/type1/public/pl/pltt10.pfb>
-Output written on dokument.pdf (23 pages, 504728 bytes).
+Output written on dokument.pdf (25 pages, 700797 bytes).
 PDF statistics:
- 463 PDF objects out of 1000 (max. 8388607)
- 404 compressed objects within 5 object streams
- 179 named destinations out of 1000 (max. 500000)
- 135 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 561 PDF objects out of 1000 (max. 8388607)
+ 499 compressed objects within 5 object streams
+ 236 named destinations out of 1000 (max. 500000)
+ 148 words of extra memory for PDF output out of 10000 (max. 10000000)
 
