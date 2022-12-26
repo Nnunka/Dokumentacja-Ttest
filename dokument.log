@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.10.14)  14 DEC 2022 22:21
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.10.14)  26 DEC 2022 16:22
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -911,11 +911,7 @@ Package biblatex Warning: 'babel/polyglossia' detected but 'csquotes' missing.
 LaTeX Warning: Unused global option(s):
     [openany].
 
-(./dokument.aux
-
-LaTeX Warning: Label `rys:przyklad' multiply defined.
-
-)
+(./dokument.aux)
 \openout1 = `dokument.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 36.
@@ -938,7 +934,8 @@ LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 36.
 LaTeX Font Info:    ... okay on input line 36.
 LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 36.
 LaTeX Font Info:    ... okay on input line 36.
- (c:/texlive/2022/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+
+(c:/texlive/2022/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count451
 \scratchdimen=\dimen268
@@ -1065,19 +1062,15 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-10.48892pt}.
 
 [2] (./tex/rozdzial1.tex
-Underfull \hbox (badness 10000) in paragraph at lines 4--11
+Underfull \hbox (badness 10000) in paragraph at lines 4--14
 
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 12--13
-
- []
-
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-
+<rys/punkt1/logo_black.png, id=86, 192.72pt x 67.452pt>
+File: rys/punkt1/logo_black.png Graphic file (type png)
+<use rys/punkt1/logo_black.png>
+Package pdftex.def Info: rys/punkt1/logo_black.png  used on input line 17.
+(pdftex.def)             Requested size: 192.71951pt x 67.45183pt.
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 22.48892pt, for example:
@@ -1086,45 +1079,16 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-10.48892pt}.
 
-[3]
-<rys/logo_black.png, id=90, 192.72pt x 67.452pt>
-File: rys/logo_black.png Graphic file (type png)
-<use rys/logo_black.png>
-Package pdftex.def Info: rys/logo_black.png  used on input line 20.
-(pdftex.def)             Requested size: 192.71951pt x 67.45183pt.
-
-Underfull \hbox (badness 10000) in paragraph at lines 15--26
-
- []
-
-
+[3 <./rys/punkt1/logo_black.png>]
 Underfull \hbox (badness 10000) in paragraph at lines 27--28
 
  []
 
-<rys/Layout_2.jpg, id=92, 508.90125pt x 284.262pt>
-File: rys/Layout_2.jpg Graphic file (type jpg)
-<use rys/Layout_2.jpg>
-Package pdftex.def Info: rys/Layout_2.jpg  used on input line 31.
-(pdftex.def)             Requested size: 508.90001pt x 284.26129pt.
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 22.48892pt, for example:
-(fancyhdr)                \setlength{\headheight}{22.48892pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-
-(fancyhdr)                \addtolength{\topmargin}{-10.48892pt}.
-
-[4 <./rys/logo_black.png> <./rys/Layout_2.jpg>]
-Underfull \hbox (badness 10000) in paragraph at lines 37--38
-
- []
-
-<rys/Layout_1.jpg, id=102, 452.892pt x 302.3295pt>
-File: rys/Layout_1.jpg Graphic file (type jpg)
-<use rys/Layout_1.jpg>
-Package pdftex.def Info: rys/Layout_1.jpg  used on input line 41.
-(pdftex.def)             Requested size: 452.89088pt x 302.32875pt.
+<rys/punkt1/Layout_1.jpg, id=98, 392.06474pt x 195.73125pt>
+File: rys/punkt1/Layout_1.jpg Graphic file (type jpg)
+<use rys/punkt1/Layout_1.jpg>
+Package pdftex.def Info: rys/punkt1/Layout_1.jpg  used on input line 34.
+(pdftex.def)             Requested size: 392.06378pt x 195.73076pt.
 ) (./tex/rozdzial2.tex
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -1134,7 +1098,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-10.48892pt}.
 
-[5 <./rys/Layout_1.jpg>]
+[4 <./rys/punkt1/Layout_1.jpg>]
 Underfull \hbox (badness 10000) in paragraph at lines 5--6
 
  []
@@ -1144,15 +1108,49 @@ Underfull \hbox (badness 10000) in paragraph at lines 7--8
 
  []
 
+<rys/punkt2/app_icon.png, id=105, 61.6704pt x 61.6704pt>
+File: rys/punkt2/app_icon.png Graphic file (type png)
+<use rys/punkt2/app_icon.png>
+Package pdftex.def Info: rys/punkt2/app_icon.png  used on input line 12.
+(pdftex.def)             Requested size: 61.67023pt x 61.67023pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 9--11
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 22.48892pt, for example:
+(fancyhdr)                \setlength{\headheight}{22.48892pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-10.48892pt}.
+
+[5 <./rys/punkt2/app_icon.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 20--21
+
+ []
+
+<rys/punkt2/menu.jpg, id=113, 813.0375pt x 1038.88126pt>
+File: rys/punkt2/menu.jpg Graphic file (type jpg)
+<use rys/punkt2/menu.jpg>
+Package pdftex.def Info: rys/punkt2/menu.jpg  used on input line 24.
+(pdftex.def)             Requested size: 813.03552pt x 1038.87872pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 30--31
 
  []
 
 
-Underfull \vbox (badness 10000) has occurred while \output is active []
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 22.48892pt, for example:
+(fancyhdr)                \setlength{\headheight}{22.48892pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
 
+(fancyhdr)                \addtolength{\topmargin}{-10.48892pt}.
 
+[6 <./rys/punkt2/menu.jpg>]
+<rys/punkt2/wyniki.png, id=120, 368.1253pt x 326.72063pt>
+File: rys/punkt2/wyniki.png Graphic file (type png)
+<use rys/punkt2/wyniki.png>
+Package pdftex.def Info: rys/punkt2/wyniki.png  used on input line 38.
+(pdftex.def)             Requested size: 368.1244pt x 326.71982pt.
+) (./tex/rozdzial3.tex
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 22.48892pt, for example:
@@ -1161,22 +1159,11 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-10.48892pt}.
 
-[6]
-<rys/menu.jpg, id=112, 1084.05pt x 2409.0pt>
-File: rys/menu.jpg Graphic file (type jpg)
-<use rys/menu.jpg>
-Package pdftex.def Info: rys/menu.jpg  used on input line 15.
-(pdftex.def)             Requested size: 1084.04736pt x 2408.99416pt.
+[7 <./rys/punkt2/wyniki.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 6--7
 
+ []
 
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 22.48892pt, for example:
-(fancyhdr)                \setlength{\headheight}{22.48892pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-
-(fancyhdr)                \addtolength{\topmargin}{-10.48892pt}.
-
-[7 <./rys/menu.jpg>]) (./tex/rozdzial3.tex
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 22.48892pt, for example:
@@ -1186,17 +1173,12 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-10.48892pt}.
 
 [8]
-Underfull \hbox (badness 10000) in paragraph at lines 5--6
+Underfull \hbox (badness 10000) in paragraph at lines 14--15
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 11--12
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 13--14
+Underfull \hbox (badness 10000) in paragraph at lines 16--17
 
  []
 
@@ -1209,47 +1191,15 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-10.48892pt}.
 
 [9]
-Underfull \hbox (badness 10000) in paragraph at lines 21--28
+Underfull \hbox (badness 10000) in paragraph at lines 26--33
 
  []
 
 
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 22.48892pt, for example:
-(fancyhdr)                \setlength{\headheight}{22.48892pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-
-(fancyhdr)                \addtolength{\topmargin}{-10.48892pt}.
-
-[10]
-Underfull \hbox (badness 10000) in paragraph at lines 29--30
+Underfull \hbox (badness 10000) in paragraph at lines 34--35
 
  []
 
-<rys/przyklad_1.jpg, id=131, 694.09312pt x 386.19281pt>
-File: rys/przyklad_1.jpg Graphic file (type jpg)
-<use rys/przyklad_1.jpg>
-Package pdftex.def Info: rys/przyklad_1.jpg  used on input line 36.
-(pdftex.def)             Requested size: 694.09143pt x 386.19185pt.
-
-Underfull \hbox (badness 10000) in paragraph at lines 31--42
-
- []
-
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 22.48892pt, for example:
-(fancyhdr)                \setlength{\headheight}{22.48892pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-
-(fancyhdr)                \addtolength{\topmargin}{-10.48892pt}.
-
-[11 <./rys/przyklad_1.jpg>]
-<rys/przyklad_2.png, id=137, 891.33pt x 766.062pt>
-File: rys/przyklad_2.png Graphic file (type png)
-<use rys/przyklad_2.png>
-Package pdftex.def Info: rys/przyklad_2.png  used on input line 48.
-(pdftex.def)             Requested size: 891.32784pt x 766.06012pt.
 ) (./tex/rozdzial4.tex
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -1259,8 +1209,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-10.48892pt}.
 
-[12 <./rys/przyklad_2.png>]
-(c:/texlive/2022/texmf-dist/tex/latex/listings/lstlang1.sty
+[10] (c:/texlive/2022/texmf-dist/tex/latex/listings/lstlang1.sty
 File: lstlang1.sty 2020/03/24 1.8d listings language file
 )
 Package hyperref Info: bookmark level for unknown lstlisting defaults to 0 on i
@@ -1271,6 +1220,24 @@ LaTeX Font Info:    Trying to load font information for OT4+cmtt on input line
 (c:/texlive/2022/texmf-dist/tex/latex/polski/ot4cmtt.fd
 File: ot4cmtt.fd 2008/02/24 v1.2.1 Font defs for fonts PL (MW)
 )
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 22.48892pt, for example:
+(fancyhdr)                \setlength{\headheight}{22.48892pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-10.48892pt}.
+
+[11]
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 22.48892pt, for example:
+(fancyhdr)                \setlength{\headheight}{22.48892pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-10.48892pt}.
+
+[12]
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 22.48892pt, for example:
@@ -1315,7 +1282,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-10.48892pt}.
 
-[17]
+[17]) (./tex/rozdzial5.tex
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 22.48892pt, for example:
@@ -1325,25 +1292,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-10.48892pt}.
 
 [18]
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 22.48892pt, for example:
-(fancyhdr)                \setlength{\headheight}{22.48892pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-
-(fancyhdr)                \addtolength{\topmargin}{-10.48892pt}.
-
-[19]) (./tex/rozdzial5.tex
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 22.48892pt, for example:
-(fancyhdr)                \setlength{\headheight}{22.48892pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-
-(fancyhdr)                \addtolength{\topmargin}{-10.48892pt}.
-
-[20]
-<rys/punkt5/latarka.jpg, id=409, 1626.075pt x 1626.075pt>
+<rys/punkt5/latarka.jpg, id=404, 1626.075pt x 1626.075pt>
 File: rys/punkt5/latarka.jpg Graphic file (type jpg)
 <use rys/punkt5/latarka.jpg>
 Package pdftex.def Info: rys/punkt5/latarka.jpg  used on input line 25.
@@ -1357,7 +1306,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-10.48892pt}.
 
-[21 <./rys/punkt5/latarka.jpg>])
+[19 <./rys/punkt5/latarka.jpg>])
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 22.48892pt, for example:
@@ -1366,7 +1315,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-10.48892pt}.
 
-[22]
+[20]
 
 LaTeX Warning: Empty bibliography on input line 78.
 
@@ -1383,7 +1332,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-10.48892pt}.
 
-[23
+[21
 
 ] (./dokument.lot)
 \tf@lot=\write8
@@ -1398,7 +1347,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-10.48892pt}.
 
-[24] (./dokument.lol)
+[22] (./dokument.lol)
 \tf@lol=\write9
 \openout9 = `dokument.lol'.
 
@@ -1415,10 +1364,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-10.48892pt}.
 
-[25] (./dokument.aux)
-
-LaTeX Warning: There were multiply-defined labels.
-
+[23] (./dokument.aux)
 Package rerunfilecheck Info: File `dokument.out' has not changed.
 (rerunfilecheck)             Checksum: 98EF61125CB012B7210D12C399F39798;2647.
 Package logreq Info: Writing requests to 'dokument.run.xml'.
@@ -1426,13 +1372,13 @@ Package logreq Info: Writing requests to 'dokument.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 25047 strings out of 475071
- 424292 string characters out of 5782907
- 1350888 words of memory out of 5000000
- 45814 multiletter control sequences out of 15000+600000
+ 25042 strings out of 475071
+ 424363 string characters out of 5782907
+ 1351852 words of memory out of 5000000
+ 45812 multiletter control sequences out of 15000+600000
  483942 words of font info for 69 fonts, out of 8000000 for 9000
  1142 hyphenation exceptions out of 8191
- 77i,12n,80p,1618b,1738s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 77i,11n,80p,1235b,1738s stack positions out of 10000i,1000n,20000p,200000b,200000s
 {c:/texlive/2022/texmf-dist/fonts/enc/dvips/pl/pltt.enc}{c:/texlive/2022/texm
 f-dist/fonts/enc/dvips/pl/plrm.enc}{c:/texlive/2022/texmf-dist/fonts/enc/dvips/
 pl/plit.enc}<c:/texlive/2022/texmf-dist/fonts/type1/public/pl/plbx10.pfb><c:/te
@@ -1444,10 +1390,10 @@ lic/pl/plr12.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/pl/plr17.pfb><c
 blic/pl/plss12.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/pl/plssbx10.p
 fb><c:/texlive/2022/texmf-dist/fonts/type1/public/pl/plti10.pfb><c:/texlive/202
 2/texmf-dist/fonts/type1/public/pl/pltt10.pfb>
-Output written on dokument.pdf (25 pages, 700797 bytes).
+Output written on dokument.pdf (23 pages, 562842 bytes).
 PDF statistics:
- 561 PDF objects out of 1000 (max. 8388607)
- 499 compressed objects within 5 object streams
- 236 named destinations out of 1000 (max. 500000)
- 148 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 554 PDF objects out of 1000 (max. 8388607)
+ 494 compressed objects within 5 object streams
+ 233 named destinations out of 1000 (max. 500000)
+ 143 words of extra memory for PDF output out of 10000 (max. 10000000)
 
