@@ -2,30 +2,206 @@
 \section{Testowanie}	%5
 %Opisujemy testy, sprawdzamy czy nie generuje błędów.
 
-\subsection{Testowanie latarki.}
+\subsection{Testowanie latarki}
 
 \begin{tabela}
 	{Testowanie latarki}	%opis w spisie tabel
 	{Testowanie latarki}	%opis przy tabeli
 	{
 		\begin{tabular}{|c|c|c|c|c|} \hline
-			lp & Zadania do przetestowania & Tak & Nie \\ \hline
+			\textbf{lp} & \textbf{Zadania do przetestowania} & \textbf{Tak} & \textbf{Nie} \\ \hline
 			1 & Latarka po naciśnięciu na guzik włączyła się & X & ~ \\ \hline
 			2 & Po włączeniu latarki, guzik zmienia kolor na zielony & X & ~ \\ \hline
-			3 & Latarka po naciśnięciu na guzik wyłączyła się & X & ~ \\ \hline
-			4 & Po wyłączeniu latarki, guzik zmienia kolor na czerwony & X & ~ \\ \hline
+			3 & Wyświetlenie komunikatu o włączeniu latarki & X & ~ \\ \hline
+			4 & Latarka po naciśnięciu na guzik wyłączyła się & X & ~ \\ \hline
+			5 & Po wyłączeniu latarki, guzik zmienia kolor na czerwony & X & ~ \\ \hline
+			6 & Wyświetlenie komunikatu o wyłączeniu latarki & X & ~ \\ \hline
 		\end{tabular}	}
-	\label{tab:tablica001}
+	\label{tab:tablica_latarka}
 \end{tabela}
 
 Obrazek \ref{rys:latarka} przedstawia zrzuty ekranu potwierdzające pomyślny przebieg testu.
 
 \begin{figure}[!hbt]
 	\begin{center}
-		\includegraphics[angle=360, width=0.65\textwidth]{rys/punkt5/latarka.jpg}
+		\includegraphics[angle=360, width=0.70\textwidth]{rys/punkt5/latarka.jpg}
 		\caption{Przebieg testowania latarki}
 		\label{rys:latarka}
 	\end{center}
 \end{figure}   
 
+\newpage
+
+
+\subsection{Testowanie trybu ciemnego}
+
+\begin{tabela}
+	{Testowanie trybu ciemnego}	%opis w spisie tabel
+	{Testowanie trybu ciemnego}	%opis przy tabeli
+	{
+		\begin{tabular}{|c|c|c|c|c|} \hline
+			\textbf{lp} & \textbf{Zadania do przetestowania} & \textbf{Tak} & \textbf{Nie} \\ \hline
+			1 & Tryb ciemny po naciśnięciu na guzik włączył się & X & ~ \\ \hline
+			2 & Po włączeniu trybu ciemnego, guzik zmienia kolor na zielony & X & ~ \\ \hline
+			3 & Wyświetlenie komunikatu o włączeniu trybu ciemnego & X & ~ \\ \hline
+			4 & Tryb ciemny po naciśnięciu na guzik wyłączył się & X & ~ \\ \hline
+			5 & Po wyłączeniu trybu ciemnego, guzik zmienia kolor na czerwony & X & ~ \\ \hline
+			6 & Wyświetlenie komunikatu o wyłączeniu trybu ciemnego & X & ~ \\ \hline
+	\end{tabular}	}
+	\label{tab:tablica_ciemny}
+\end{tabela}
+
+Obrazek \ref{rys:ciemny} przedstawia zrzuty ekranu potwierdzające pomyślny przebieg testu.
+
+\begin{figure}[!hbt]
+	\begin{center}
+		\includegraphics[angle=360, width=0.70\textwidth]{rys/punkt5/ciemny.jpg}
+		\caption{Przebieg testowania trybu ciemnego}
+		\label{rys:ciemny}
+	\end{center}
+\end{figure}   
+
+\newpage
+
+
+\subsection{Testowanie czujnika zbliżeniowego}
+
+\begin{tabela}
+	{Testowanie czujnika zbliżeniowego}	%opis w spisie tabel
+	{Testowanie czujnika zbliżeniowego}	%opis przy tabeli
+	{
+		\begin{tabular}{|c|c|c|c|c|} \hline
+			\textbf{lp} & \textbf{Zadania do przetestowania} & \textbf{Tak} & \textbf{Nie} \\ \hline
+			1 & Po zbiżeniu obiektu do czujnik zmienia się tekst informacyjny  & X & ~ \\ \hline
+			2 & Po oddaleniu obiektu od czujnika zmienia się tekst informacyjny & X & ~ \\ \hline
+	\end{tabular}	}
+	\label{tab:tablica_zblizeniowy}
+\end{tabela}
+
+Obrazek \ref{rys:zblizeniowy} przedstawia zrzuty ekranu potwierdzające pomyślny przebieg testu.
+
+\begin{figure}[!hbt]
+	\begin{center}
+		\includegraphics[angle=360, width=0.70\textwidth]{rys/punkt5/zblizeniowy.jpg}
+		\caption{Przebieg testowania czujnika zbliżeniowego}
+		\label{rys:zblizeniowy}
+	\end{center}
+\end{figure}   
+
+\newpage
+
+
+\subsection{Testowanie lokalizacji}
+
+\begin{tabela}
+	{Testowanie lokalizacji}	%opis w spisie tabel
+	{Testowanie lokalizacji}	%opis przy tabeli
+	{
+		\begin{tabular}{|c|c|c|c|c|} \hline
+			\textbf{lp} & \textbf{Zadania do przetestowania} & \textbf{Tak} & \textbf{Nie} \\ \hline
+			1 & Po naciśnieciu na guzik wyświatla się adres obecnej lokalizacji  & X & ~ \\ \hline
+			2 & Po naciśnieciu na guzik wyświatla się komunikat z współrzędnymi & X & ~ \\ \hline
+	\end{tabular}	}
+	\label{tab:tablica_gps}
+\end{tabela}
+
+Obrazek \ref{rys:gps} przedstawia zrzuty ekranu potwierdzające pomyślny przebieg testu.
+
+\begin{figure}[!hbt]
+	\begin{center}
+		\includegraphics[angle=360, width=0.70\textwidth]{rys/punkt5/gps.jpg}
+		\caption{Przebieg testowania lokalizacji}
+		\label{rys:gps}
+	\end{center}
+\end{figure} 
+
+\newpage
+
+
+\subsection{Testowanie wifi}  
+
+\newpage
+
+
+\subsection{Testowanie dźwięku}
+
+\begin{tabela}
+	{Testowanie dźwięku}	%opis w spisie tabel
+	{Testowanie dźwięku}	%opis przy tabeli
+	{
+		\begin{tabular}{|c|c|c|c|c|} \hline
+			\textbf{lp} & \textbf{Zadania do przetestowania} & \textbf{Tak} & \textbf{Nie} \\ \hline
+			1 & Po naciśnięciu na guzik z głośników słychać śpiew ptaków & X & ~ \\ \hline
+	\end{tabular}	}
+	\label{tab:tablica_dzwiek}
+\end{tabela}
+
+Obrazek \ref{rys:dzwiek} przedstawia zrzuty ekranu potwierdzające pomyślny przebieg testu.
+
+\begin{figure}[!hbt]
+	\begin{center}
+		\includegraphics[angle=360, width=0.35\textwidth]{rys/punkt5/dzwiek.jpg}
+		\caption{Przebieg testowania dźwięku}
+		\label{rys:dzwiek}
+	\end{center}
+\end{figure} 
+
+\newpage
+
+
+\subsection{Testowanie mikrofonu}
+
+\begin{tabela}
+	{Testowanie mikrofonu}	%opis w spisie tabel
+	{Testowanie mikrofonu}	%opis przy tabeli
+	{
+		\begin{tabular}{|c|c|c|c|c|} \hline
+			\textbf{lp} & \textbf{Zadania do przetestowania} & \textbf{Tak} & \textbf{Nie} \\ \hline
+			1 & Naciśnięcie na guzik "START" zaczyna nagrywanie & X & ~ \\ \hline
+			2 & Po naciśnięciu na guzik "START" wyświetla się komunikat & X & ~ \\ \hline
+			3 & Naciśnięcie na guzik "STOP" kończy nagrywanie & X & ~ \\ \hline
+			4 & Po naciśnięciu na guzik "STOP" wyświetla się komunikat & X & ~ \\ \hline
+			5 & Naciśnięcie na guzik "PLAY" oddtwarza nagranie & X & ~ \\ \hline
+			6 &  Po naciśnięciu na guzik "PLAY" wyświetla się komunikat & X & ~ \\ \hline
+	\end{tabular}	}
+	\label{tab:tablica_mikrofon}
+\end{tabela}
+
+Obrazek \ref{rys:mikrofon} przedstawia zrzuty ekranu potwierdzające pomyślny przebieg testu.
+
+\begin{figure}[!hbt]
+	\begin{center}
+		\includegraphics[angle=360, width=0.90\textwidth]{rys/punkt5/mikrofon.jpg}
+		\caption{Przebieg testowania mikrofonu}
+		\label{rys:mikrofon}
+	\end{center}
+\end{figure} 
+
+\newpage
+
+
+\subsection{Testowanie aparatu}
+
+\begin{tabela}
+	{Testowanie aparatu}	%opis w spisie tabel
+	{Testowanie aparatu}	%opis przy tabeli
+	{
+		\begin{tabular}{|c|c|c|c|c|} \hline
+			\textbf{lp} & \textbf{Zadania do przetestowania} & \textbf{Tak} & \textbf{Nie} \\ \hline
+			1 & Po naciśnięciu na guzik "zrób zdjęcie" włącza się aplikacja aparatu & X & ~ \\ \hline
+	\end{tabular}	}
+	\label{tab:tablica_aparat}
+\end{tabela}
+
+Obrazek \ref{rys:aparat} przedstawia zrzuty ekranu potwierdzające pomyślny przebieg testu.
+
+\begin{figure}[!hbt]
+	\begin{center}
+		\includegraphics[angle=360, width=0.90\textwidth]{rys/punkt5/aparat.jpg}
+		\caption{Przebieg testowania aparatu}
+		\label{rys:aparat}
+	\end{center}
+\end{figure} 
+
+\newpage
 
