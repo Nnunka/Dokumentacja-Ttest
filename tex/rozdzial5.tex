@@ -2,7 +2,10 @@
 \section{Testowanie}	%5
 %Opisujemy testy, sprawdzamy czy nie generuje błędów.
 
+
 \subsection{Testowanie latarki}
+
+Zadania jakie ma spełniać test latarki przedstawione są w tabeli \ref{tab:tablica_latarka}. Jako "X" w kolumnie "Tak" lub "Nie", oznaczamy pomyślny lub niepomyślny przebieg poszczególnych zadań. Całość testu podsumowana jest rzutami ekranu \ref{rys:latarka} wykonanymi podczas testowania jako potwierdzenie wykonanego testu.
 
 \begin{tabela}
 	{Testowanie latarki}	%opis w spisie tabel
@@ -24,7 +27,7 @@ Obrazek \ref{rys:latarka} przedstawia zrzuty ekranu potwierdzające pomyślny pr
 
 \begin{figure}[!hbt]
 	\begin{center}
-		\includegraphics[angle=360, width=0.70\textwidth]{rys/punkt5/latarka.jpg}
+		\includegraphics[angle=360, width=0.65\textwidth]{rys/punkt5/latarka.jpg}
 		\caption{Przebieg testowania latarki}
 		\label{rys:latarka}
 	\end{center}
@@ -34,6 +37,8 @@ Obrazek \ref{rys:latarka} przedstawia zrzuty ekranu potwierdzające pomyślny pr
 
 
 \subsection{Testowanie trybu ciemnego}
+
+Zadania jakie ma spełniać test trybu ciemnego przedstawione są w tabeli \ref{tab:tablica_ciemny}. Jako "X" w kolumnie "Tak" lub "Nie", oznaczamy pomyślny lub niepomyślny przebieg poszczególnych zadań. Całość testu podsumowana jest rzutami ekranu \ref{rys:ciemny} wykonanymi podczas testowania jako potwierdzenie wykonanego testu.
 
 \begin{tabela}
 	{Testowanie trybu ciemnego}	%opis w spisie tabel
@@ -55,7 +60,7 @@ Obrazek \ref{rys:ciemny} przedstawia zrzuty ekranu potwierdzające pomyślny prz
 
 \begin{figure}[!hbt]
 	\begin{center}
-		\includegraphics[angle=360, width=0.70\textwidth]{rys/punkt5/ciemny.jpg}
+		\includegraphics[angle=360, width=0.65\textwidth]{rys/punkt5/ciemny.jpg}
 		\caption{Przebieg testowania trybu ciemnego}
 		\label{rys:ciemny}
 	\end{center}
@@ -65,6 +70,8 @@ Obrazek \ref{rys:ciemny} przedstawia zrzuty ekranu potwierdzające pomyślny prz
 
 
 \subsection{Testowanie czujnika zbliżeniowego}
+
+Zadania jakie ma spełniać test czujnika zbliżeniiowego przedstawione są w tabeli \ref{tab:tablica_zblizeniowy}. Jako "X" w kolumnie "Tak" lub "Nie", oznaczamy pomyślny lub niepomyślny przebieg poszczególnych zadań. Całość testu podsumowana jest rzutami ekranu \ref{rys:zblizeniowy} wykonanymi podczas testowania jako potwierdzenie wykonanego testu.
 
 \begin{tabela}
 	{Testowanie czujnika zbliżeniowego}	%opis w spisie tabel
@@ -82,7 +89,7 @@ Obrazek \ref{rys:zblizeniowy} przedstawia zrzuty ekranu potwierdzające pomyśln
 
 \begin{figure}[!hbt]
 	\begin{center}
-		\includegraphics[angle=360, width=0.70\textwidth]{rys/punkt5/zblizeniowy.jpg}
+		\includegraphics[angle=360, width=0.65\textwidth]{rys/punkt5/zblizeniowy.jpg}
 		\caption{Przebieg testowania czujnika zbliżeniowego}
 		\label{rys:zblizeniowy}
 	\end{center}
@@ -92,6 +99,8 @@ Obrazek \ref{rys:zblizeniowy} przedstawia zrzuty ekranu potwierdzające pomyśln
 
 
 \subsection{Testowanie lokalizacji}
+
+Zadania jakie ma spełniać test lokalizacji zbliżeniiowego przedstawione są w tabeli \ref{tab:tablica_gps}. Jako "X" w kolumnie "Tak" lub "Nie", oznaczamy pomyślny lub niepomyślny przebieg poszczególnych zadań. Całość testu podsumowana jest rzutami ekranu \ref{rys:gps} wykonanymi podczas testowania jako potwierdzenie wykonanego testu.
 
 \begin{tabela}
 	{Testowanie lokalizacji}	%opis w spisie tabel
@@ -109,7 +118,7 @@ Obrazek \ref{rys:gps} przedstawia zrzuty ekranu potwierdzające pomyślny przebi
 
 \begin{figure}[!hbt]
 	\begin{center}
-		\includegraphics[angle=360, width=0.70\textwidth]{rys/punkt5/gps.jpg}
+		\includegraphics[angle=360, width=0.65\textwidth]{rys/punkt5/gps.jpg}
 		\caption{Przebieg testowania lokalizacji}
 		\label{rys:gps}
 	\end{center}
@@ -120,10 +129,39 @@ Obrazek \ref{rys:gps} przedstawia zrzuty ekranu potwierdzające pomyślny przebi
 
 \subsection{Testowanie wifi}  
 
+Zadania jakie ma spełniać test wifi przedstawione są w tabeli \ref{tab:tablica_wifi}. Jako "X" \\ w kolumnie "Tak" lub "Nie", oznaczamy pomyślny lub niepomyślny przebieg poszczególnych zadań. Całość testu podsumowana jest rzutami ekranu \ref{rys:wifi} wykonanymi podczas testowania jako potwierdzenie wykonanego testu.
+
+\begin{tabela}
+	{Testowanie wifi}	%opis w spisie tabel
+	{Testowanie wifi}	%opis przy tabeli
+	{
+		\begin{tabular}{|c|c|c|c|c|} \hline
+			\textbf{lp} & \textbf{Zadania do przetestowania} & \textbf{Tak} & \textbf{Nie} \\ \hline
+			1 & Pojawia się informacja o statusie wifi & X & ~ \\ \hline
+			2 & Po naciśnieciu na guzik pojawia się adres IP telefonu & X & ~ \\ \hline
+			3 & Po naciśnieciu na guzik pojawia się adres MAC routera & X & ~ \\ \hline
+			4 & Po naciśnieciu na guzik pojawia się SSID sieci & X & ~ \\ \hline
+			5 & Po naciśnieciu na guzik pojawia się wzkaźnik mocy & X & ~ \\ \hline
+	\end{tabular}	}
+	\label{tab:tablica_wifi}
+\end{tabela}
+
+Obrazek \ref{rys:wifi} przedstawia zrzuty ekranu potwierdzające pomyślny przebieg testu.
+
+\begin{figure}[!hbt]
+	\begin{center}
+		\includegraphics[angle=360, width=0.90\textwidth]{rys/punkt5/wifi.png}
+		\caption{Przebieg testowania wifi}
+		\label{rys:wifi}
+	\end{center}
+\end{figure} 
+
 \newpage
 
 
 \subsection{Testowanie dźwięku}
+
+Zadania jakie ma spełniać test dźwięku przedstawione są w tabeli \ref{tab:tablica_dzwiek}. Jako "X" \\ w kolumnie "Tak" lub "Nie", oznaczamy pomyślny lub niepomyślny przebieg poszczególnych zadań. Całość testu podsumowana jest rzutami ekranu \ref{rys:dzwiek} wykonanymi podczas testowania jako potwierdzenie wykonanego testu.
 
 \begin{tabela}
 	{Testowanie dźwięku}	%opis w spisie tabel
@@ -132,6 +170,7 @@ Obrazek \ref{rys:gps} przedstawia zrzuty ekranu potwierdzające pomyślny przebi
 		\begin{tabular}{|c|c|c|c|c|} \hline
 			\textbf{lp} & \textbf{Zadania do przetestowania} & \textbf{Tak} & \textbf{Nie} \\ \hline
 			1 & Po naciśnięciu na guzik z głośników słychać śpiew ptaków & X & ~ \\ \hline
+			2 & Wyświetlenie komunikatu o rozpoczęciu odtwarzania nagrania & X & ~ \\ \hline
 	\end{tabular}	}
 	\label{tab:tablica_dzwiek}
 \end{tabela}
@@ -140,7 +179,7 @@ Obrazek \ref{rys:dzwiek} przedstawia zrzuty ekranu potwierdzające pomyślny prz
 
 \begin{figure}[!hbt]
 	\begin{center}
-		\includegraphics[angle=360, width=0.35\textwidth]{rys/punkt5/dzwiek.jpg}
+		\includegraphics[angle=360, width=0.65\textwidth]{rys/punkt5/dzwiek.png}
 		\caption{Przebieg testowania dźwięku}
 		\label{rys:dzwiek}
 	\end{center}
@@ -151,6 +190,8 @@ Obrazek \ref{rys:dzwiek} przedstawia zrzuty ekranu potwierdzające pomyślny prz
 
 \subsection{Testowanie mikrofonu}
 
+Zadania jakie ma spełniać test mikrofonu przedstawione są w tabeli \ref{tab:tablica_mikrofon}. Jako "X" \\ w kolumnie "Tak" lub "Nie", oznaczamy pomyślny lub niepomyślny przebieg poszczególnych zadań. Całość testu podsumowana jest rzutami ekranu \ref{rys:mikrofon} wykonanymi podczas testowania jako potwierdzenie wykonanego testu.
+
 \begin{tabela}
 	{Testowanie mikrofonu}	%opis w spisie tabel
 	{Testowanie mikrofonu}	%opis przy tabeli
@@ -158,11 +199,11 @@ Obrazek \ref{rys:dzwiek} przedstawia zrzuty ekranu potwierdzające pomyślny prz
 		\begin{tabular}{|c|c|c|c|c|} \hline
 			\textbf{lp} & \textbf{Zadania do przetestowania} & \textbf{Tak} & \textbf{Nie} \\ \hline
 			1 & Naciśnięcie na guzik "START" zaczyna nagrywanie & X & ~ \\ \hline
-			2 & Po naciśnięciu na guzik "START" wyświetla się komunikat & X & ~ \\ \hline
+			2 & Po naciśnięciu na guzik "START" wyświetla się adekwatny komunikat & X & ~ \\ \hline
 			3 & Naciśnięcie na guzik "STOP" kończy nagrywanie & X & ~ \\ \hline
-			4 & Po naciśnięciu na guzik "STOP" wyświetla się komunikat & X & ~ \\ \hline
+			4 & Po naciśnięciu na guzik "STOP" wyświetla się adekwatny komunikat & X & ~ \\ \hline
 			5 & Naciśnięcie na guzik "PLAY" oddtwarza nagranie & X & ~ \\ \hline
-			6 &  Po naciśnięciu na guzik "PLAY" wyświetla się komunikat & X & ~ \\ \hline
+			6 &  Po naciśnięciu na guzik "PLAY" wyświetla się adekwatny komunikat & X & ~ \\ \hline
 	\end{tabular}	}
 	\label{tab:tablica_mikrofon}
 \end{tabela}
@@ -182,6 +223,8 @@ Obrazek \ref{rys:mikrofon} przedstawia zrzuty ekranu potwierdzające pomyślny p
 
 \subsection{Testowanie aparatu}
 
+Zadania jakie ma spełniać test mikrofonu przedstawione są w tabeli \ref{tab:tablica_aparat}. Jako "X" \\ w kolumnie "Tak" lub "Nie", oznaczamy pomyślny lub niepomyślny przebieg poszczególnych zadań. Całość testu podsumowana jest rzutami ekranu \ref{rys:aparat} wykonanymi podczas testowania jako potwierdzenie wykonanego testu.
+
 \begin{tabela}
 	{Testowanie aparatu}	%opis w spisie tabel
 	{Testowanie aparatu}	%opis przy tabeli
@@ -189,6 +232,8 @@ Obrazek \ref{rys:mikrofon} przedstawia zrzuty ekranu potwierdzające pomyślny p
 		\begin{tabular}{|c|c|c|c|c|} \hline
 			\textbf{lp} & \textbf{Zadania do przetestowania} & \textbf{Tak} & \textbf{Nie} \\ \hline
 			1 & Po naciśnięciu na guzik "zrób zdjęcie" włącza się aplikacja aparatu & X & ~ \\ \hline
+			2 & Można wykonać zdjęcię poprzez naciśnięcie białego guzika & X & ~ \\ \hline
+			3 & Jako potwierdzenie wykonania zdjęcia, wyświetla się ono & X & ~ \\ \hline
 	\end{tabular}	}
 	\label{tab:tablica_aparat}
 \end{tabela}
@@ -202,6 +247,74 @@ Obrazek \ref{rys:aparat} przedstawia zrzuty ekranu potwierdzające pomyślny prz
 		\label{rys:aparat}
 	\end{center}
 \end{figure} 
+
+\newpage
+
+
+\subsection{Testowanie menu}
+
+Zadania jakie ma spełniać menu przedstawione są w tabeli \ref{tab:tablica_menu}. Jako "X" w kolumnie "Tak" lub "Nie", oznaczamy pomyślny lub niepomyślny przebieg poszczególnych zadań. Całość testu podsumowana jest rzutami ekranu \ref{rys:menu} wykonanymi podczas testowania jako potwierdzenie wykonanego testu.
+
+\begin{tabela}
+	{Testowanie menu}	%opis w spisie tabel
+	{Testowanie menu}	%opis przy tabeli
+	{
+		\begin{tabular}{|c|c|c|c|} \hline
+			\textbf{lp} & \textbf{Zadania do przetestowania} & \textbf{Tak} & \textbf{Nie} \\ \hline
+			1 & Guzik "Latarka" przekierwuje do testu latarki & X & ~ \\ \hline
+			2 & Guzik "Tryb ciemny" przekierwuje do testu trybu ciemnego & X & ~ \\ \hline
+			3 & Guzik "Zbliżeniowy" przekierwuje do testu czujnika zbliżeniowego & X & ~ \\ \hline
+			4 & Guzik "GPS" przekierwuje do testu lokalizacji & X & ~ \\ \hline
+			5 & Guzik "Wifi" przekierwuje do testu wifi & X & ~ \\ \hline
+			6 & Guzik "Dźwięk" przekierwuje do testu dźwięku & X & ~ \\ \hline
+			7 & Guzik "Mikrofon" przekierwuje do testu mikrofonu & X & ~ \\ \hline
+			8 & Guzik "Aparat" przekierwuje do testu aparatu & X & ~ \\ \hline
+			9 & Guzik "Wyniki" przekierwuje do podsumowania testów & X & ~ \\ \hline
+	\end{tabular}	}
+	\label{tab:tablica_menu}
+\end{tabela}
+
+Obrazek \ref{rys:menu} przedstawia zrzuty ekranu potwierdzające pomyślny przebieg testu.
+
+\begin{figure}[!hbt]
+	\begin{center}
+		\includegraphics[angle=360, width=0.30\textwidth]{rys/punkt5/menu.jpg}
+		\caption{Przebieg testowania menu}
+		\label{rys:menu}
+	\end{center}
+\end{figure}   
+
+\newpage
+
+
+\subsection{Testowanie podsumowania}
+
+Zadania jakie ma spełniać podsumowanie przedstawione są w tabeli \ref{tab:tablica_wyniki}. Jako "X" w kolumnie "Tak" lub "Nie", oznaczamy pomyślny lub niepomyślny przebieg poszczególnych zadań. Całość testu podsumowana jest rzutami ekranu \ref{rys:wyniki} wykonanymi podczas testowania jako potwierdzenie wykonanego testu.
+
+\begin{tabela}
+	{Testowanie podsumowania}	%opis w spisie tabel
+	{Testowanie podsumowania}	%opis przy tabeli
+	{
+		\begin{tabular}{|c|c|c|c|} \hline
+			\textbf{lp} & \textbf{Zadania do przetestowania} & \textbf{Tak} & \textbf{Nie} \\ \hline
+			1 & Wyświetla się informacja o marce i modelu telefonu & X & ~ \\ \hline
+			2 & W każdej grupie można wybrać tylko jeden przycisk typu radio & X & ~ \\ \hline
+			3 & Po naciśnięciu na guzik pojawia się podsumowanie zaznaczaonych opcji & X & ~ \\ \hline
+			4 & Pozytywne wyniki testów są wyswietlane na zielono & X & ~ \\ \hline
+			5 & Negatywne wyniki testów są wyswietlane na czerwono & X & ~ \\ \hline
+	\end{tabular}	}
+	\label{tab:tablica_wyniki}
+\end{tabela}
+
+Obrazek \ref{rys:wyniki} przedstawia zrzuty ekranu potwierdzające pomyślny przebieg testu.
+
+\begin{figure}[!hbt]
+	\begin{center}
+		\includegraphics[angle=360, width=0.90\textwidth]{rys/punkt5/wyniki.png}
+		\caption{Przebieg testowania podsumowania}
+		\label{rys:wyniki}
+	\end{center}
+\end{figure}   
 
 \newpage
 

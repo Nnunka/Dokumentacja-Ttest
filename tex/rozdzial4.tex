@@ -128,7 +128,7 @@ Metoda onLocationChanged przedstawiona jako listing \ref{lst:listing-java8} (s. 
 \end{lstlisting}
 
 
-Listing \ref{lst:listing-java9} (s. \pageref{lst:listing-java9}) przedstawia implementacje MediaPlayer (linijka 1) do którego podłączamy dźwięk. Teraz w prosty sposób możemy wywołać dźwięk poprzez medote OnClick,
+Listing \ref{lst:listing-java9} (s. \pageref{lst:listing-java9}) przedstawia implementacje MediaPlayer (linijka 1) do którego podłączamy dźwięk. Teraz w prosty sposób możemy wywołać dźwięk poprzez medote OnClick.
 \begin{lstlisting}[caption= Dźwięk - Działanie z wykorzystaniem MediaPlayer, label={lst:listing-java9}, language=Java]
 	final MediaPlayer sound = MediaPlayer.create(this, R.raw.dzwiek_audio);
 	Button btn_dzwiek = findViewById(R.id.btn_dzwiek);
@@ -136,6 +136,7 @@ Listing \ref{lst:listing-java9} (s. \pageref{lst:listing-java9}) przedstawia imp
 		@Override
 		public void onClick(View view) {
 			sound.start();
+			Toast.makeText(dzwiek.this, "Odtwarzanie nagrania", Toast.LENGTH_SHORT).show();
 		}
 	});
 \end{lstlisting}
