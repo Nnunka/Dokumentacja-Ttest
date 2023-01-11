@@ -1,16 +1,49 @@
 \babel@toc {polish}{}\relax 
-\contentsline {figure}{\numberline {{1}.1}{\ignorespaces Logo firmy TTest\relax }}{3}{figure.caption.1}%
-\contentsline {figure}{\numberline {{1}.2}{\ignorespaces Przykładowy layout\relax }}{4}{figure.caption.2}%
-\contentsline {figure}{\numberline {{2}.1}{\ignorespaces Ikona aplikacji\relax }}{5}{figure.caption.3}%
-\contentsline {figure}{\numberline {{2}.2}{\ignorespaces Wygląd menu głównego\relax }}{6}{figure.caption.4}%
-\contentsline {figure}{\numberline {{2}.3}{\ignorespaces Podsumowanie testów\relax }}{7}{figure.caption.5}%
-\contentsline {figure}{\numberline {{5}.1}{\ignorespaces Przebieg testowania latarki\relax }}{19}{figure.caption.7}%
-\contentsline {figure}{\numberline {{5}.2}{\ignorespaces Przebieg testowania trybu ciemnego\relax }}{20}{figure.caption.9}%
-\contentsline {figure}{\numberline {{5}.3}{\ignorespaces Przebieg testowania czujnika zbliżeniowego\relax }}{21}{figure.caption.11}%
-\contentsline {figure}{\numberline {{5}.4}{\ignorespaces Przebieg testowania lokalizacji\relax }}{22}{figure.caption.13}%
-\contentsline {figure}{\numberline {{5}.5}{\ignorespaces Przebieg testowania wifi\relax }}{23}{figure.caption.15}%
-\contentsline {figure}{\numberline {{5}.6}{\ignorespaces Przebieg testowania dźwięku\relax }}{24}{figure.caption.17}%
-\contentsline {figure}{\numberline {{5}.7}{\ignorespaces Przebieg testowania mikrofonu\relax }}{25}{figure.caption.19}%
-\contentsline {figure}{\numberline {{5}.8}{\ignorespaces Przebieg testowania aparatu\relax }}{26}{figure.caption.21}%
-\contentsline {figure}{\numberline {{5}.9}{\ignorespaces Przebieg testowania menu\relax }}{27}{figure.caption.23}%
-\contentsline {figure}{\numberline {{5}.10}{\ignorespaces Przebieg testowania podsumowania\relax }}{28}{figure.caption.25}%
+\contentsline {figure}{\numberline {{1}.1}{\ignorespaces Logo firmy TTest\relax }}{4}{figure.caption.1}%
+\contentsline {figure}{\numberline {{1}.2}{\ignorespaces Przykładowy layout\relax }}{5}{figure.caption.2}%
+\contentsline {figure}{\numberline {{2}.1}{\ignorespaces Ikona aplikacji\relax }}{6}{figure.caption.3}%
+\contentsline {figure}{\numberline {{2}.2}{\ignorespaces Wygląd menu głównego\relax }}{7}{figure.caption.4}%
+\contentsline {figure}{\numberline {{2}.3}{\ignorespaces Podsumowanie testów\relax }}{8}{figure.caption.5}%
+\contentsline {figure}{\numberline {{5}.1}{\ignorespaces Przebieg testowania latarki\relax }}{20}{figure.caption.7}%
+\contentsline {figure}{\numberline {{5}.2}{\ignorespaces Przebieg testowania trybu ciemnego\relax }}{21}{figure.caption.9}%
+\contentsline {figure}{\numberline {{5}.3}{\ignorespaces Przebieg testowania czujnika zbliżeniowego\relax }}{22}{figure.caption.11}%
+\contentsline {figure}{\numberline {{5}.4}{\ignorespaces Przebieg testowania lokalizacji\relax }}{23}{figure.caption.13}%
+\contentsline {figure}{\numberline {{5}.5}{\ignorespaces Przebieg testowania wifi\relax }}{24}{figure.caption.15}%
+\contentsline {figure}{\numberline {{5}.6}{\ignorespaces Przebieg testowania dźwięku\relax }}{25}{figure.caption.17}%
+\contentsline {figure}{\numberline {{5}.7}{\ignorespaces Przebieg testowania mikrofonu\relax }}{26}{figure.caption.19}%
+\contentsline {figure}{\numberline {{5}.8}{\ignorespaces Przebieg testowania aparatu\relax }}{27}{figure.caption.21}%
+\contentsline {figure}{\numberline {{5}.9}{\ignorespaces Przebieg testowania menu\relax }}{28}{figure.caption.23}%
+\contentsline {figure}{\numberline {{5}.10}{\ignorespaces Przebieg testowania podsumowania\relax }}{29}{figure.caption.25}%
+\contentsline {figure}{\numberline {{6}.1}{\ignorespaces Wyszukiwanie aplikacji\relax }}{30}{figure.caption.26}%
+\contentsline {figure}{\numberline {{6}.2}{\ignorespaces Menu główne\relax }}{31}{figure.caption.27}%
+\contentsline {figure}{\numberline {{6}.3}{\ignorespaces Wybór latarki\relax }}{31}{figure.caption.28}%
+\contentsline {figure}{\numberline {{6}.4}{\ignorespaces Działanie latarki\relax }}{32}{figure.caption.29}%
+\contentsline {figure}{\numberline {{6}.5}{\ignorespaces Latarka wyłączona\relax }}{32}{figure.caption.30}%
+\contentsline {figure}{\numberline {{6}.6}{\ignorespaces Wybór trybu ciemnego\relax }}{33}{figure.caption.31}%
+\contentsline {figure}{\numberline {{6}.7}{\ignorespaces Działanie trybu ciemnego\relax }}{33}{figure.caption.32}%
+\contentsline {figure}{\numberline {{6}.8}{\ignorespaces Wyłączenie trybu ciemnego\relax }}{34}{figure.caption.33}%
+\contentsline {figure}{\numberline {{6}.9}{\ignorespaces Lokalizacja czujnika zbliżeniowego\relax }}{34}{figure.caption.34}%
+\contentsline {figure}{\numberline {{6}.10}{\ignorespaces Strona testowa czujnika zbliżeniowego\relax }}{35}{figure.caption.35}%
+\contentsline {figure}{\numberline {{6}.11}{\ignorespaces Działanie czujnika zbliżeniowego\relax }}{35}{figure.caption.36}%
+\contentsline {figure}{\numberline {{6}.12}{\ignorespaces Wybór GPS'a\relax }}{36}{figure.caption.37}%
+\contentsline {figure}{\numberline {{6}.13}{\ignorespaces Stona testowa GPS'a\relax }}{36}{figure.caption.38}%
+\contentsline {figure}{\numberline {{6}.14}{\ignorespaces Działanie GPS'a\relax }}{37}{figure.caption.39}%
+\contentsline {figure}{\numberline {{6}.15}{\ignorespaces Wybór wifi\relax }}{38}{figure.caption.40}%
+\contentsline {figure}{\numberline {{6}.16}{\ignorespaces Strona testowa- wifi\relax }}{38}{figure.caption.41}%
+\contentsline {figure}{\numberline {{6}.17}{\ignorespaces Test wifi\relax }}{39}{figure.caption.42}%
+\contentsline {figure}{\numberline {{6}.18}{\ignorespaces Działanie wifi\relax }}{39}{figure.caption.43}%
+\contentsline {figure}{\numberline {{6}.19}{\ignorespaces Wybór testu dźwięku\relax }}{40}{figure.caption.44}%
+\contentsline {figure}{\numberline {{6}.20}{\ignorespaces Strona testowa dźwięku\relax }}{40}{figure.caption.45}%
+\contentsline {figure}{\numberline {{6}.21}{\ignorespaces Test dźwięku\relax }}{41}{figure.caption.46}%
+\contentsline {figure}{\numberline {{6}.22}{\ignorespaces Wybór testu mikrofonu\relax }}{42}{figure.caption.47}%
+\contentsline {figure}{\numberline {{6}.23}{\ignorespaces Działanie przycisku Start- mikrofon\relax }}{42}{figure.caption.48}%
+\contentsline {figure}{\numberline {{6}.24}{\ignorespaces Działanie przycisku Stop- mikrofon\relax }}{43}{figure.caption.49}%
+\contentsline {figure}{\numberline {{6}.25}{\ignorespaces Działanie przycisku Play- mikrofon\relax }}{43}{figure.caption.50}%
+\contentsline {figure}{\numberline {{6}.26}{\ignorespaces Wybór testu aparatu\relax }}{44}{figure.caption.51}%
+\contentsline {figure}{\numberline {{6}.27}{\ignorespaces Strona testowa aparatu\relax }}{44}{figure.caption.52}%
+\contentsline {figure}{\numberline {{6}.28}{\ignorespaces Wykonanie zdjęcia- test aparatu\relax }}{45}{figure.caption.53}%
+\contentsline {figure}{\numberline {{6}.29}{\ignorespaces Wykonanie kolejnego zdjęcia lub koniec testu - test aparatu\relax }}{45}{figure.caption.54}%
+\contentsline {figure}{\numberline {{6}.30}{\ignorespaces Przejście do sekcji "Wyniki"\relax }}{46}{figure.caption.55}%
+\contentsline {figure}{\numberline {{6}.31}{\ignorespaces Strona z podsumowaniem testów.\relax }}{47}{figure.caption.56}%
+\contentsline {figure}{\numberline {{6}.32}{\ignorespaces Podsumowanie wszystkich testów, które przebiegły pomyślnie\relax }}{47}{figure.caption.57}%
+\contentsline {figure}{\numberline {{6}.33}{\ignorespaces Podsumowanie wszystkich testów, które nie przebiegły pomyślnie\relax }}{48}{figure.caption.58}%
