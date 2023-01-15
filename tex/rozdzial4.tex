@@ -1,8 +1,7 @@
 	\newpage
 \section{Implementacja}		%4
 
-
-Listing \ref{lst:listing-java} (s. \pageref{lst:listing-java}) przedstawia implementacje jednego z przycisków którego zadaniem jest otworzenie nowej strony oznaczonej w 5 linijce kodu po kliknięciu. 
+\hspace{0.60cm}Listing \ref{lst:listing-java} (s. \pageref{lst:listing-java}) przedstawia implementacje jednego z przycisków którego zadaniem jest otworzenie nowej strony oznaczonej w 5 linijce kodu po kliknięciu. 
 \begin{lstlisting}[caption=Menu - Działanie Przycisków, label={lst:listing-java}, language=Java]
 	button_1 = (Button) findViewById(R.id.button_1);
 	button_1.setOnClickListener(new View.OnClickListener() {
@@ -35,7 +34,7 @@ W podobny sposób wygląda metoda z wyłączeniem latarki. W 6 linijce trzeba za
 \newpage
 
 
-Aby zaimplementować tryb ciemny potrzebujemy dostępu do modyfikowania interfejsu. Listing \ref{lst:listing-java3} (s. \pageref{lst:listing-java3}) pokazuje jak go uzyskać. 
+Aby zaimplementować tryb ciemny potrzebujemy dostępu do modyfikowania \\ interfejsu. Listing \ref{lst:listing-java3} (s. \pageref{lst:listing-java3}) pokazuje jak go uzyskać. 
 \begin{lstlisting}[caption=Tryb Ciemny - Modyfikowanie interfejsu, label={lst:listing-java3}, language=Java]
 	SharedPreferences sharedPreferences = getSharedPreferences("sharedPrefs", MODE_PRIVATE);
 	final SharedPreferences.Editor editor = sharedPreferences.edit();
@@ -43,7 +42,7 @@ Aby zaimplementować tryb ciemny potrzebujemy dostępu do modyfikowania interfej
 \end{lstlisting}
 
 
- Listing \ref{lst:listing-java4} (s. \pageref{lst:listing-java4}) przedstawia metodę odpowiedzialną za działanie trybu ciemnego. Domyślnie aplikacja korzysta z trybu jansego, co pokazuje kod od 5 do 10 linijki. Jednak po naciśnięciu na przycisku, zmieniamy kolorystyke aplikacji na ciemną (13-15 linijak), dodatkowo od 16 linijki zmieniamy przycisk na czerwony, aktualne logo na ciemne oraz wyświetlamy stosowny komunikat.
+ Listing \ref{lst:listing-java4} (s. \pageref{lst:listing-java4}) przedstawia metodę odpowiedzialną za działanie trybu ciemnego. Domyślnie aplikacja korzysta z trybu jansego, co pokazuje kod od 5 do 10 linijki. Jednak po naciśnięciu na przycisku, zmieniamy kolorystyke aplikacji na ciemną (13-15 linijka), dodatkowo od 16 linijki zmieniamy przycisk na czerwony, aktualne logo na ciemne oraz wyświetlamy stosowny komunikat.
 \begin{lstlisting}[caption=Tryb Ciemny - Włączenie/wyłączenie trybu ciemnego, label={lst:listing-java4}, language=Java]
 	toggle_tryb_ciemny.setOnClickListener(new View.OnClickListener() {
 		@Override
@@ -111,7 +110,7 @@ Aby wdrożyć test aplikacji trzeba sprawdzić pozwolenie, w tym wypadku interes
 \newpage
 
 
-Metoda onLocationChanged przedstawiona jako listing \ref{lst:listing-java8} (s. \pageref{lst:listing-java8}) odpowiada za wyświetlenie powiadomienia push-up wyświetlającego długość i szerokość geograficzną obecnej lokalizacji oraz pobiera adres tej lokalizacji na podstawie długości i szerokości geograficznej, który wyświetla jako tekst.
+Metoda onLocationChanged przedstawiona jako listing \ref{lst:listing-java8} (s. \pageref{lst:listing-java8}) odpowiada za wyświetlenie powiadomienia push-up wyświetlającego długość oraz szerokość geograficzną obecnej lokalizacji oraz pobiera adres tej lokalizacji na podstawie długości i szerokości geograficznej, który wyświetla jako tekst.
 \begin{lstlisting}[caption=GPS - Wyświetlanie lokalizacji, label={lst:listing-java8}, language=Java]
 	@Override
 	public void onLocationChanged(Location location) {
@@ -272,5 +271,36 @@ Kod ukazany w listingu \ref{lst:listing-java17} (s. \pageref{lst:listing-java17}
 	String stringBuildModel = "Marka i model: " + Build.MANUFACTURER + " " + Build.MODEL;
 	model.setText(stringBuildModel);
 \end{lstlisting}
+
+\newpage
+
+
+Listing \ref{lst:listing-java18} (s. \pageref{lst:listing-java18}) ukazuje kawałek layoutu strony z wynikami, użyto tutaj~Radio Group\footnote{Android Developers - przykład użycia Radio Group\cite{www1}.}. Grupując przyciski, dostajemy gwarancję że w danej chwili będzie można wybrać tylko jeden przycisk radio.
+\begin{lstlisting}[caption=Wyniki - Radio Group, label={lst:listing-java18}, language=Java]
+	<RadioGroup
+	android:id="@+id/test1"
+	android:layout_width="0dp"
+	android:layout_height="30dp"
+	android:layout_marginTop="18dp"
+	android:orientation="horizontal"
+	app:layout_constraintEnd_toEndOf="parent"
+	app:layout_constraintStart_toEndOf="@+id/test_latarka"
+	app:layout_constraintTop_toBottomOf="@+id/text_pytanie">
+	
+		<RadioButton
+		android:id="@+id/tak_latarka"
+		android:layout_width="60dp"
+		android:layout_height="30dp"
+		android:text="Tak" />
+		
+		<RadioButton
+		android:id="@+id/nie_latarka"
+		android:layout_width="60dp"
+		android:layout_height="30dp"
+		android:text="Nie" />
+	</RadioGroup>
+\end{lstlisting}
+
+
 
 

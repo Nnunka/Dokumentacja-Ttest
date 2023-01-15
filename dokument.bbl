@@ -16,5 +16,26 @@
   {}
 \endgroup
 
+
+\refsection{0}
+  \datalist[entry]{none/global//global/global}
+    \entry{www1}{online}{}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labeltitlesource}{title}
+      \field{title}{Strona internetowa Android Developers}
+      \field{urlday}{25}
+      \field{urlmonth}{11}
+      \field{urlyear}{2012}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://developer.android.com/develop/ui/views/components/radiobutton
+      \endverb
+      \verb{url}
+      \verb https://developer.android.com/develop/ui/views/components/radiobutton
+      \endverb
+    \endentry
+  \enddatalist
+\endrefsection
 \endinput
 

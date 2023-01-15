@@ -15,3 +15,4 @@
 \contentsline {lstlisting}{\numberline {15}{\ignorespaces Wifi - Sprawdzenie statusu Wifi}}{18}{lstlisting.15}%
 \contentsline {lstlisting}{\numberline {16}{\ignorespaces Wifi - Pobieranie informacji o Wifi}}{19}{lstlisting.16}%
 \contentsline {lstlisting}{\numberline {17}{\ignorespaces Wyniki - Pobranie marki i modelu urządzenia}}{19}{lstlisting.17}%
+\contentsline {lstlisting}{\numberline {18}{\ignorespaces Wyniki - Radio Group}}{20}{lstlisting.18}%

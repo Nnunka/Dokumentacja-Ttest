@@ -2,33 +2,33 @@
 \contentsline {section}{\numberline {1}Ogólne określenie wymagań}{4}{section.1}%
 \contentsline {section}{\numberline {2}Określenie wymagań szczegółowych}{6}{section.2}%
 \contentsline {section}{\numberline {3}Projektowanie}{9}{section.3}%
-\contentsline {subsection}{\numberline {3.1}Kilka słów o środowisku Android studio oraz języku programowania Java.}{9}{subsection.3.1}%
-\contentsline {subsection}{\numberline {3.2}Środowisko programisty/Składanie dokumentów - Latex}{10}{subsection.3.2}%
+\contentsline {subsection}{\numberline {3.1}Środowisko Android Studio oraz język programowania Java.}{9}{subsection.3.1}%
+\contentsline {subsection}{\numberline {3.2}Środowisko programisty/pisanie dokumentów - Latex.}{10}{subsection.3.2}%
 \contentsline {subsection}{\numberline {3.3}Czym jest Git oraz do czego służy?}{11}{subsection.3.3}%
 \contentsline {section}{\numberline {4}Implementacja}{12}{section.4}%
-\contentsline {section}{\numberline {5}Testowanie}{20}{section.5}%
-\contentsline {subsection}{\numberline {5.1}Testowanie latarki}{20}{subsection.5.1}%
-\contentsline {subsection}{\numberline {5.2}Testowanie trybu ciemnego}{21}{subsection.5.2}%
-\contentsline {subsection}{\numberline {5.3}Testowanie czujnika zbliżeniowego}{22}{subsection.5.3}%
-\contentsline {subsection}{\numberline {5.4}Testowanie lokalizacji}{23}{subsection.5.4}%
-\contentsline {subsection}{\numberline {5.5}Testowanie wifi}{24}{subsection.5.5}%
-\contentsline {subsection}{\numberline {5.6}Testowanie dźwięku}{25}{subsection.5.6}%
-\contentsline {subsection}{\numberline {5.7}Testowanie mikrofonu}{26}{subsection.5.7}%
-\contentsline {subsection}{\numberline {5.8}Testowanie aparatu}{27}{subsection.5.8}%
-\contentsline {subsection}{\numberline {5.9}Testowanie menu}{28}{subsection.5.9}%
-\contentsline {subsection}{\numberline {5.10}Testowanie podsumowania}{29}{subsection.5.10}%
-\contentsline {section}{\numberline {6}Podręcznik użytkownika}{30}{section.6}%
-\contentsline {subsection}{\numberline {6.1}Wyszukiwanie i uruchamianie aplikacji Ttest}{30}{subsection.6.1}%
-\contentsline {subsection}{\numberline {6.2}Test latarki}{31}{subsection.6.2}%
-\contentsline {subsection}{\numberline {6.3}Test trybu ciemnego}{33}{subsection.6.3}%
-\contentsline {subsection}{\numberline {6.4}Test czujnika zbliżeniowego}{34}{subsection.6.4}%
-\contentsline {subsection}{\numberline {6.5}Test GPS}{36}{subsection.6.5}%
-\contentsline {subsection}{\numberline {6.6}Test Wifi}{38}{subsection.6.6}%
-\contentsline {subsection}{\numberline {6.7}Test dźwięku}{40}{subsection.6.7}%
-\contentsline {subsection}{\numberline {6.8}Test mikrofonu}{42}{subsection.6.8}%
-\contentsline {subsection}{\numberline {6.9}Test aparatu}{44}{subsection.6.9}%
-\contentsline {subsection}{\numberline {6.10}Podsumowanie wszystkich testów}{46}{subsection.6.10}%
-\contentsline {section}{Literatura}{49}{figure.caption.58}%
-\contentsline {section}{Spis rysunków}{50}{figure.caption.58}%
-\contentsline {section}{Spis tabel}{51}{figure.caption.58}%
-\contentsline {section}{Spis listingów}{52}{figure.caption.58}%
+\contentsline {section}{\numberline {5}Testowanie}{21}{section.5}%
+\contentsline {subsection}{\numberline {5.1}Testowanie latarki}{21}{subsection.5.1}%
+\contentsline {subsection}{\numberline {5.2}Testowanie trybu ciemnego}{22}{subsection.5.2}%
+\contentsline {subsection}{\numberline {5.3}Testowanie czujnika zbliżeniowego}{23}{subsection.5.3}%
+\contentsline {subsection}{\numberline {5.4}Testowanie lokalizacji}{24}{subsection.5.4}%
+\contentsline {subsection}{\numberline {5.5}Testowanie wifi}{25}{subsection.5.5}%
+\contentsline {subsection}{\numberline {5.6}Testowanie dźwięku}{26}{subsection.5.6}%
+\contentsline {subsection}{\numberline {5.7}Testowanie mikrofonu}{27}{subsection.5.7}%
+\contentsline {subsection}{\numberline {5.8}Testowanie aparatu}{28}{subsection.5.8}%
+\contentsline {subsection}{\numberline {5.9}Testowanie menu}{29}{subsection.5.9}%
+\contentsline {subsection}{\numberline {5.10}Testowanie podsumowania}{30}{subsection.5.10}%
+\contentsline {section}{\numberline {6}Podręcznik użytkownika}{31}{section.6}%
+\contentsline {subsection}{\numberline {6.1}Wyszukiwanie i uruchomienie aplikacji Ttest}{31}{subsection.6.1}%
+\contentsline {subsection}{\numberline {6.2}Test latarki}{33}{subsection.6.2}%
+\contentsline {subsection}{\numberline {6.3}Test trybu ciemnego}{35}{subsection.6.3}%
+\contentsline {subsection}{\numberline {6.4}Test czujnika zbliżeniowego}{37}{subsection.6.4}%
+\contentsline {subsection}{\numberline {6.5}Test GPS}{39}{subsection.6.5}%
+\contentsline {subsection}{\numberline {6.6}Test Wifi}{41}{subsection.6.6}%
+\contentsline {subsection}{\numberline {6.7}Test dźwięku}{45}{subsection.6.7}%
+\contentsline {subsection}{\numberline {6.8}Test mikrofonu}{47}{subsection.6.8}%
+\contentsline {subsection}{\numberline {6.9}Test aparatu}{51}{subsection.6.9}%
+\contentsline {subsection}{\numberline {6.10}Podsumowanie wszystkich testów}{55}{subsection.6.10}%
+\contentsline {section}{Literatura}{58}{figure.caption.58}%
+\contentsline {section}{Spis rysunków}{60}{section*.59}%
+\contentsline {section}{Spis tabel}{61}{section*.59}%
+\contentsline {section}{Spis listingów}{62}{section*.59}%
