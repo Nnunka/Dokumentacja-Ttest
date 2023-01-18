@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.10.14)  14 JAN 2023 22:12
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.10.14)  18 JAN 2023 16:19
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1109,19 +1109,19 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-10.48892pt}.
 
 [5 <./rys/punkt1/Layout_1.jpg>]
-Underfull \hbox (badness 10000) in paragraph at lines 5--6
+Underfull \hbox (badness 10000) in paragraph at lines 6--7
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 7--8
+Underfull \hbox (badness 10000) in paragraph at lines 8--9
 
  []
 
 <rys/punkt2/app_icon.png, id=207, 61.6704pt x 61.6704pt>
 File: rys/punkt2/app_icon.png Graphic file (type png)
 <use rys/punkt2/app_icon.png>
-Package pdftex.def Info: rys/punkt2/app_icon.png  used on input line 12.
+Package pdftex.def Info: rys/punkt2/app_icon.png  used on input line 13.
 (pdftex.def)             Requested size: 61.67023pt x 61.67023pt.
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -1132,20 +1132,15 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-10.48892pt}.
 
 [6 <./rys/punkt2/app_icon.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 20--21
+Underfull \hbox (badness 10000) in paragraph at lines 22--23
 
  []
 
 <rys/punkt2/menu.jpg, id=215, 813.0375pt x 1038.88126pt>
 File: rys/punkt2/menu.jpg Graphic file (type jpg)
 <use rys/punkt2/menu.jpg>
-Package pdftex.def Info: rys/punkt2/menu.jpg  used on input line 24.
+Package pdftex.def Info: rys/punkt2/menu.jpg  used on input line 26.
 (pdftex.def)             Requested size: 813.03552pt x 1038.87872pt.
-
-Underfull \hbox (badness 10000) in paragraph at lines 30--31
-
- []
-
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 22.48892pt, for example:
@@ -1158,7 +1153,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 <rys/punkt2/wyniki.png, id=223, 368.1253pt x 326.72063pt>
 File: rys/punkt2/wyniki.png Graphic file (type png)
 <use rys/punkt2/wyniki.png>
-Package pdftex.def Info: rys/punkt2/wyniki.png  used on input line 38.
+Package pdftex.def Info: rys/punkt2/wyniki.png  used on input line 41.
 (pdftex.def)             Requested size: 368.1244pt x 326.71982pt.
 ) (./tex/rozdzial3.tex
 
@@ -1212,11 +1207,6 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 [10]
 Underfull \hbox (badness 10000) in paragraph at lines 28--35
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 36--37
 
  []
 
@@ -1321,7 +1311,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-10.48892pt}.
 
 [20]
-<rys/punkt5/latarka.jpg, id=544, 1683.28876pt x 1683.28876pt>
+<rys/punkt5/latarka.jpg, id=556, 1683.28876pt x 1683.28876pt>
 File: rys/punkt5/latarka.jpg Graphic file (type jpg)
 <use rys/punkt5/latarka.jpg>
 Package pdftex.def Info: rys/punkt5/latarka.jpg  used on input line 30.
@@ -1340,7 +1330,7 @@ Overfull \hbox (7.6976pt too wide) in paragraph at lines 55--57
  [][] 
  []
 
-<rys/punkt5/ciemny.jpg, id=554, 1683.28876pt x 1683.28876pt>
+<rys/punkt5/ciemny.jpg, id=566, 1683.28876pt x 1683.28876pt>
 File: rys/punkt5/ciemny.jpg Graphic file (type jpg)
 <use rys/punkt5/ciemny.jpg>
 Package pdftex.def Info: rys/punkt5/ciemny.jpg  used on input line 63.
@@ -1358,7 +1348,7 @@ Overfull \hbox (8.77467pt too wide) in paragraph at lines 84--86
  [][] 
  []
 
-<rys/punkt5/zblizeniowy.png, id=564, 1686.3pt x 1686.3pt>
+<rys/punkt5/zblizeniowy.png, id=576, 1686.3pt x 1686.3pt>
 File: rys/punkt5/zblizeniowy.png Graphic file (type png)
 <use rys/punkt5/zblizeniowy.png>
 Package pdftex.def Info: rys/punkt5/zblizeniowy.png  used on input line 92.
@@ -1372,11 +1362,11 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-10.48892pt}.
 
 [23 <./rys/punkt5/zblizeniowy.png>]
-Overfull \hbox (16.11835pt too wide) in paragraph at lines 113--115
+Overfull \hbox (15.46558pt too wide) in paragraph at lines 113--115
  [][] 
  []
 
-<rys/punkt5/gps.jpg, id=574, 1686.3pt x 1686.3pt>
+<rys/punkt5/gps.jpg, id=586, 1686.3pt x 1686.3pt>
 File: rys/punkt5/gps.jpg Graphic file (type jpg)
 <use rys/punkt5/gps.jpg>
 Package pdftex.def Info: rys/punkt5/gps.jpg  used on input line 121.
@@ -1390,7 +1380,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-10.48892pt}.
 
 [24 <./rys/punkt5/gps.jpg>]
-<rys/punkt5/wifi.png, id=584, 2490.30376pt x 1689.31125pt>
+<rys/punkt5/wifi.png, id=596, 2490.30376pt x 1689.31125pt>
 File: rys/punkt5/wifi.png Graphic file (type png)
 <use rys/punkt5/wifi.png>
 Package pdftex.def Info: rys/punkt5/wifi.png  used on input line 153.
@@ -1405,7 +1395,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-10.48892pt}.
 
 [25 <./rys/punkt5/wifi.png>]
-<rys/punkt5/dzwiek.png, id=595, 1686.3pt x 1686.3pt>
+<rys/punkt5/dzwiek.png, id=607, 1686.3pt x 1686.3pt>
 File: rys/punkt5/dzwiek.png Graphic file (type png)
 <use rys/punkt5/dzwiek.png>
 Package pdftex.def Info: rys/punkt5/dzwiek.png  used on input line 182.
@@ -1424,7 +1414,7 @@ Overfull \hbox (35.10774pt too wide) in paragraph at lines 207--209
  [][] 
  []
 
-<rys/punkt5/mikrofon.png, id=605, 2490.30376pt x 1689.31125pt>
+<rys/punkt5/mikrofon.png, id=617, 2490.30376pt x 1689.31125pt>
 File: rys/punkt5/mikrofon.png Graphic file (type png)
 <use rys/punkt5/mikrofon.png>
 Package pdftex.def Info: rys/punkt5/mikrofon.png  used on input line 215.
@@ -1438,15 +1428,12 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-10.48892pt}.
 
 [27 <./rys/punkt5/mikrofon.png>]
-Overfull \hbox (17.61972pt too wide) in paragraph at lines 237--239
- [][] 
- []
-
-<rys/punkt5/aparat.jpg, id=615, 2273.49374pt x 1626.075pt>
+<rys/punkt5/aparat.jpg, id=628, 2273.49374pt x 1626.075pt>
 File: rys/punkt5/aparat.jpg Graphic file (type jpg)
 <use rys/punkt5/aparat.jpg>
 Package pdftex.def Info: rys/punkt5/aparat.jpg  used on input line 245.
 (pdftex.def)             Requested size: 2273.48824pt x 1626.07104pt.
+
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 22.48892pt, for example:
@@ -1456,11 +1443,11 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-10.48892pt}.
 
 [28 <./rys/punkt5/aparat.jpg>]
-Overfull \hbox (12.87186pt too wide) in paragraph at lines 273--275
+Overfull \hbox (18.42041pt too wide) in paragraph at lines 273--275
  [][] 
  []
 
-<rys/punkt5/menu.png, id=626, 852.18375pt x 1668.2325pt>
+<rys/punkt5/menu.png, id=638, 852.18375pt x 1668.2325pt>
 File: rys/punkt5/menu.png Graphic file (type png)
 <use rys/punkt5/menu.png>
 Package pdftex.def Info: rys/punkt5/menu.png  used on input line 281.
@@ -1474,11 +1461,11 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-10.48892pt}.
 
 [29 <./rys/punkt5/menu.png>]
-Overfull \hbox (44.74236pt too wide) in paragraph at lines 305--307
+Overfull \hbox (38.86742pt too wide) in paragraph at lines 305--307
  [][] 
  []
 
-<rys/punkt5/wyniki.png, id=636, 2490.30376pt x 1689.31125pt>
+<rys/punkt5/wyniki.png, id=648, 2490.30376pt x 1689.31125pt>
 File: rys/punkt5/wyniki.png Graphic file (type png)
 <use rys/punkt5/wyniki.png>
 Package pdftex.def Info: rys/punkt5/wyniki.png  used on input line 313.
@@ -1492,7 +1479,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-10.48892pt}.
 
 [30 <./rys/punkt5/wyniki.png>]) (./tex/rozdzial6.tex
-<rys/punkt6/ikona.jpg, id=644, 813.0375pt x 1806.75pt>
+<rys/punkt6/ikona.jpg, id=656, 813.0375pt x 1806.75pt>
 File: rys/punkt6/ikona.jpg Graphic file (type jpg)
 <use rys/punkt6/ikona.jpg>
 Package pdftex.def Info: rys/punkt6/ikona.jpg  used on input line 12.
@@ -1507,7 +1494,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-10.48892pt}.
 
 [31 <./rys/punkt6/ikona.jpg>]
-<rys/punkt6/menu1.jpg, id=652, 813.0375pt x 1626.075pt>
+<rys/punkt6/menu1.jpg, id=664, 813.0375pt x 1626.075pt>
 File: rys/punkt6/menu1.jpg Graphic file (type jpg)
 <use rys/punkt6/menu1.jpg>
 Package pdftex.def Info: rys/punkt6/menu1.jpg  used on input line 27.
@@ -1522,7 +1509,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-10.48892pt}.
 
 [32 <./rys/punkt6/menu1.jpg>]
-<rys/punkt6/latarka1.jpg, id=659, 813.0375pt x 1626.075pt>
+<rys/punkt6/latarka1.jpg, id=671, 813.0375pt x 1626.075pt>
 File: rys/punkt6/latarka1.jpg Graphic file (type jpg)
 <use rys/punkt6/latarka1.jpg>
 Package pdftex.def Info: rys/punkt6/latarka1.jpg  used on input line 42.
@@ -1537,12 +1524,12 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-10.48892pt}.
 
 [33 <./rys/punkt6/latarka1.jpg>]
-<rys/punkt6/latarka2.jpg, id=667, 813.0375pt x 1626.075pt>
+<rys/punkt6/latarka2.jpg, id=679, 813.0375pt x 1626.075pt>
 File: rys/punkt6/latarka2.jpg Graphic file (type jpg)
 <use rys/punkt6/latarka2.jpg>
 Package pdftex.def Info: rys/punkt6/latarka2.jpg  used on input line 55.
 (pdftex.def)             Requested size: 813.03552pt x 1626.07104pt.
-<rys/punkt6/latarka3.jpg, id=669, 813.0375pt x 1626.075pt>
+<rys/punkt6/latarka3.jpg, id=681, 813.0375pt x 1626.075pt>
 File: rys/punkt6/latarka3.jpg Graphic file (type jpg)
 <use rys/punkt6/latarka3.jpg>
 Package pdftex.def Info: rys/punkt6/latarka3.jpg  used on input line 65.
@@ -1557,7 +1544,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-10.48892pt}.
 
 [34 <./rys/punkt6/latarka2.jpg> <./rys/punkt6/latarka3.jpg>]
-<rys/punkt6/menu2.jpg, id=676, 813.0375pt x 1626.075pt>
+<rys/punkt6/menu2.jpg, id=688, 813.0375pt x 1626.075pt>
 File: rys/punkt6/menu2.jpg Graphic file (type jpg)
 <use rys/punkt6/menu2.jpg>
 Package pdftex.def Info: rys/punkt6/menu2.jpg  used on input line 80.
@@ -1572,15 +1559,15 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-10.48892pt}.
 
 [35 <./rys/punkt6/menu2.jpg>]
-<rys/punkt6/tryb ciemny.png, id=684, 813.0375pt x 1627.58063pt>
+<rys/punkt6/tryb ciemny.png, id=696, 813.0375pt x 1627.58063pt>
 File: rys/punkt6/tryb ciemny.png Graphic file (type png)
 <use rys/punkt6/tryb ciemny.png>
-Package pdftex.def Info: rys/punkt6/tryb ciemny.png  used on input line 93.
+Package pdftex.def Info: rys/punkt6/tryb ciemny.png  used on input line 94.
 (pdftex.def)             Requested size: 813.03552pt x 1627.57666pt.
-<rys/punkt6/tryb ciemny1.png, id=686, 813.0375pt x 1626.075pt>
+<rys/punkt6/tryb ciemny1.png, id=698, 813.0375pt x 1626.075pt>
 File: rys/punkt6/tryb ciemny1.png Graphic file (type png)
 <use rys/punkt6/tryb ciemny1.png>
-Package pdftex.def Info: rys/punkt6/tryb ciemny1.png  used on input line 103.
+Package pdftex.def Info: rys/punkt6/tryb ciemny1.png  used on input line 104.
 (pdftex.def)             Requested size: 813.03552pt x 1626.07104pt.
 
 
@@ -1592,13 +1579,13 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-10.48892pt}.
 
 [36 <./rys/punkt6/tryb ciemny.png> <./rys/punkt6/tryb ciemny1.png>]
-<rys/punkt6/menu3.jpg, id=693, 813.0375pt x 1626.075pt>
+<rys/punkt6/menu3.jpg, id=705, 813.0375pt x 1626.075pt>
 File: rys/punkt6/menu3.jpg Graphic file (type jpg)
 <use rys/punkt6/menu3.jpg>
-Package pdftex.def Info: rys/punkt6/menu3.jpg  used on input line 118.
+Package pdftex.def Info: rys/punkt6/menu3.jpg  used on input line 119.
 (pdftex.def)             Requested size: 813.03552pt x 1626.07104pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 124--125
+Underfull \hbox (badness 10000) in paragraph at lines 125--126
 
  []
 
@@ -1611,17 +1598,17 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-10.48892pt}.
 
 [37 <./rys/punkt6/menu3.jpg>]
-<rys/punkt6/czujnik zbliżeniowy.png, id=702, 813.0375pt x 1626.075pt>
+<rys/punkt6/czujnik zbliżeniowy.png, id=714, 813.0375pt x 1626.075pt>
 File: rys/punkt6/czujnik zbliżeniowy.png Graphic file (type png)
 <use rys/punkt6/czujnik zbliżeniowy.png>
 Package pdftex.def Info: rys/punkt6/czujnik zbliżeniowy.png  used on input lin
-e 133.
+e 134.
 (pdftex.def)             Requested size: 813.03552pt x 1626.07104pt.
-<rys/punkt6/czujnik zbliżeniowy1.png, id=704, 813.0375pt x 1626.075pt>
+<rys/punkt6/czujnik zbliżeniowy1.png, id=716, 813.0375pt x 1626.075pt>
 File: rys/punkt6/czujnik zbliżeniowy1.png Graphic file (type png)
 <use rys/punkt6/czujnik zbliżeniowy1.png>
 Package pdftex.def Info: rys/punkt6/czujnik zbliżeniowy1.png  used on input li
-ne 143.
+ne 144.
 (pdftex.def)             Requested size: 813.03552pt x 1626.07104pt.
 
 
@@ -1634,13 +1621,13 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 [38 <./rys/punkt6/czujnik zbliżeniowy.png> <./rys/punkt6/czujnik zbliżeniowy1
 .png>]
-<rys/punkt6/menu4.jpg, id=711, 813.0375pt x 1626.075pt>
+<rys/punkt6/menu4.jpg, id=723, 813.0375pt x 1626.075pt>
 File: rys/punkt6/menu4.jpg Graphic file (type jpg)
 <use rys/punkt6/menu4.jpg>
-Package pdftex.def Info: rys/punkt6/menu4.jpg  used on input line 158.
+Package pdftex.def Info: rys/punkt6/menu4.jpg  used on input line 159.
 (pdftex.def)             Requested size: 813.03552pt x 1626.07104pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 164--165
+Underfull \hbox (badness 10000) in paragraph at lines 165--166
 
  []
 
@@ -1653,15 +1640,15 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-10.48892pt}.
 
 [39 <./rys/punkt6/menu4.jpg>]
-<rys/punkt6/gps.jpg, id=719, 813.0375pt x 1626.075pt>
+<rys/punkt6/gps.jpg, id=731, 813.0375pt x 1626.075pt>
 File: rys/punkt6/gps.jpg Graphic file (type jpg)
 <use rys/punkt6/gps.jpg>
-Package pdftex.def Info: rys/punkt6/gps.jpg  used on input line 172.
+Package pdftex.def Info: rys/punkt6/gps.jpg  used on input line 173.
 (pdftex.def)             Requested size: 813.03552pt x 1626.07104pt.
-<rys/punkt6/gps1.jpg, id=721, 813.0375pt x 1626.075pt>
+<rys/punkt6/gps1.jpg, id=733, 813.0375pt x 1626.075pt>
 File: rys/punkt6/gps1.jpg Graphic file (type jpg)
 <use rys/punkt6/gps1.jpg>
-Package pdftex.def Info: rys/punkt6/gps1.jpg  used on input line 182.
+Package pdftex.def Info: rys/punkt6/gps1.jpg  used on input line 183.
 (pdftex.def)             Requested size: 813.03552pt x 1626.07104pt.
 
 
@@ -1673,10 +1660,10 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-10.48892pt}.
 
 [40 <./rys/punkt6/gps.jpg> <./rys/punkt6/gps1.jpg>]
-<rys/punkt6/wifi.jpg, id=728, 813.0375pt x 1626.075pt>
+<rys/punkt6/wifi.jpg, id=740, 813.0375pt x 1626.075pt>
 File: rys/punkt6/wifi.jpg Graphic file (type jpg)
 <use rys/punkt6/wifi.jpg>
-Package pdftex.def Info: rys/punkt6/wifi.jpg  used on input line 197.
+Package pdftex.def Info: rys/punkt6/wifi.jpg  used on input line 198.
 (pdftex.def)             Requested size: 813.03552pt x 1626.07104pt.
 
 
@@ -1688,10 +1675,10 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-10.48892pt}.
 
 [41 <./rys/punkt6/wifi.jpg>]
-<rys/punkt6/wifi1.jpg, id=735, 813.0375pt x 1626.075pt>
+<rys/punkt6/wifi1.jpg, id=748, 813.0375pt x 1626.075pt>
 File: rys/punkt6/wifi1.jpg Graphic file (type jpg)
 <use rys/punkt6/wifi1.jpg>
-Package pdftex.def Info: rys/punkt6/wifi1.jpg  used on input line 210.
+Package pdftex.def Info: rys/punkt6/wifi1.jpg  used on input line 212.
 (pdftex.def)             Requested size: 813.03552pt x 1626.07104pt.
 
 
@@ -1703,10 +1690,10 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-10.48892pt}.
 
 [42 <./rys/punkt6/wifi1.jpg>]
-<rys/punkt6/wifi2.jpg, id=742, 813.0375pt x 1626.075pt>
+<rys/punkt6/wifi2.jpg, id=755, 813.0375pt x 1626.075pt>
 File: rys/punkt6/wifi2.jpg Graphic file (type jpg)
 <use rys/punkt6/wifi2.jpg>
-Package pdftex.def Info: rys/punkt6/wifi2.jpg  used on input line 223.
+Package pdftex.def Info: rys/punkt6/wifi2.jpg  used on input line 226.
 (pdftex.def)             Requested size: 813.03552pt x 1626.07104pt.
 
 
@@ -1718,10 +1705,10 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-10.48892pt}.
 
 [43 <./rys/punkt6/wifi2.jpg>]
-<rys/punkt6/wifi3.jpg, id=751, 813.0375pt x 1626.075pt>
+<rys/punkt6/wifi3.jpg, id=763, 813.0375pt x 1626.075pt>
 File: rys/punkt6/wifi3.jpg Graphic file (type jpg)
 <use rys/punkt6/wifi3.jpg>
-Package pdftex.def Info: rys/punkt6/wifi3.jpg  used on input line 236.
+Package pdftex.def Info: rys/punkt6/wifi3.jpg  used on input line 240.
 (pdftex.def)             Requested size: 813.03552pt x 1626.07104pt.
 
 
@@ -1733,10 +1720,10 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-10.48892pt}.
 
 [44 <./rys/punkt6/wifi3.jpg>]
-<rys/punkt6/menu5.jpg, id=758, 813.0375pt x 1626.075pt>
+<rys/punkt6/menu5.jpg, id=770, 813.0375pt x 1626.075pt>
 File: rys/punkt6/menu5.jpg Graphic file (type jpg)
 <use rys/punkt6/menu5.jpg>
-Package pdftex.def Info: rys/punkt6/menu5.jpg  used on input line 251.
+Package pdftex.def Info: rys/punkt6/menu5.jpg  used on input line 255.
 (pdftex.def)             Requested size: 813.03552pt x 1626.07104pt.
 
 
@@ -1748,15 +1735,15 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-10.48892pt}.
 
 [45 <./rys/punkt6/menu5.jpg>]
-<rys/punkt6/dźwięk.jpg, id=766, 813.0375pt x 1626.075pt>
+<rys/punkt6/dźwięk.jpg, id=778, 813.0375pt x 1626.075pt>
 File: rys/punkt6/dźwięk.jpg Graphic file (type jpg)
 <use rys/punkt6/dźwięk.jpg>
-Package pdftex.def Info: rys/punkt6/dźwięk.jpg  used on input line 265.
+Package pdftex.def Info: rys/punkt6/dźwięk.jpg  used on input line 269.
 (pdftex.def)             Requested size: 813.03552pt x 1626.07104pt.
-<rys/punkt6/dźwięk2.jpg, id=768, 813.0375pt x 1626.075pt>
+<rys/punkt6/dźwięk2.jpg, id=780, 813.0375pt x 1626.075pt>
 File: rys/punkt6/dźwięk2.jpg Graphic file (type jpg)
 <use rys/punkt6/dźwięk2.jpg>
-Package pdftex.def Info: rys/punkt6/dźwięk2.jpg  used on input line 275.
+Package pdftex.def Info: rys/punkt6/dźwięk2.jpg  used on input line 279.
 (pdftex.def)             Requested size: 813.03552pt x 1626.07104pt.
 
 
@@ -1768,10 +1755,10 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-10.48892pt}.
 
 [46 <./rys/punkt6/dźwięk.jpg> <./rys/punkt6/dźwięk2.jpg>]
-<rys/punkt6/menu6.jpg, id=775, 813.0375pt x 1626.075pt>
+<rys/punkt6/menu6.jpg, id=787, 813.0375pt x 1626.075pt>
 File: rys/punkt6/menu6.jpg Graphic file (type jpg)
 <use rys/punkt6/menu6.jpg>
-Package pdftex.def Info: rys/punkt6/menu6.jpg  used on input line 290.
+Package pdftex.def Info: rys/punkt6/menu6.jpg  used on input line 294.
 (pdftex.def)             Requested size: 813.03552pt x 1626.07104pt.
 
 
@@ -1783,10 +1770,10 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-10.48892pt}.
 
 [47 <./rys/punkt6/menu6.jpg>]
-<rys/punkt6/mikrofon1.jpg, id=782, 813.0375pt x 1626.075pt>
+<rys/punkt6/mikrofon1.jpg, id=794, 813.0375pt x 1626.075pt>
 File: rys/punkt6/mikrofon1.jpg Graphic file (type jpg)
 <use rys/punkt6/mikrofon1.jpg>
-Package pdftex.def Info: rys/punkt6/mikrofon1.jpg  used on input line 305.
+Package pdftex.def Info: rys/punkt6/mikrofon1.jpg  used on input line 309.
 (pdftex.def)             Requested size: 813.03552pt x 1626.07104pt.
 
 
@@ -1798,10 +1785,10 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-10.48892pt}.
 
 [48 <./rys/punkt6/mikrofon1.jpg>]
-<rys/punkt6/mikrofon2.jpg, id=789, 813.0375pt x 1626.075pt>
+<rys/punkt6/mikrofon2.jpg, id=801, 813.0375pt x 1626.075pt>
 File: rys/punkt6/mikrofon2.jpg Graphic file (type jpg)
 <use rys/punkt6/mikrofon2.jpg>
-Package pdftex.def Info: rys/punkt6/mikrofon2.jpg  used on input line 318.
+Package pdftex.def Info: rys/punkt6/mikrofon2.jpg  used on input line 322.
 (pdftex.def)             Requested size: 813.03552pt x 1626.07104pt.
 
 
@@ -1813,10 +1800,10 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-10.48892pt}.
 
 [49 <./rys/punkt6/mikrofon2.jpg>]
-<rys/punkt6/mikrofon3.jpg, id=797, 813.0375pt x 1626.075pt>
+<rys/punkt6/mikrofon3.jpg, id=809, 813.0375pt x 1626.075pt>
 File: rys/punkt6/mikrofon3.jpg Graphic file (type jpg)
 <use rys/punkt6/mikrofon3.jpg>
-Package pdftex.def Info: rys/punkt6/mikrofon3.jpg  used on input line 331.
+Package pdftex.def Info: rys/punkt6/mikrofon3.jpg  used on input line 335.
 (pdftex.def)             Requested size: 813.03552pt x 1626.07104pt.
 
 
@@ -1828,10 +1815,10 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-10.48892pt}.
 
 [50 <./rys/punkt6/mikrofon3.jpg>]
-<rys/punkt6/menu7.jpg, id=804, 813.0375pt x 1626.075pt>
+<rys/punkt6/menu7.jpg, id=816, 813.0375pt x 1626.075pt>
 File: rys/punkt6/menu7.jpg Graphic file (type jpg)
 <use rys/punkt6/menu7.jpg>
-Package pdftex.def Info: rys/punkt6/menu7.jpg  used on input line 346.
+Package pdftex.def Info: rys/punkt6/menu7.jpg  used on input line 350.
 (pdftex.def)             Requested size: 813.03552pt x 1626.07104pt.
 
 
@@ -1843,10 +1830,10 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-10.48892pt}.
 
 [51 <./rys/punkt6/menu7.jpg>]
-<rys/punkt6/aparat.jpg, id=811, 813.0375pt x 1626.075pt>
+<rys/punkt6/aparat.jpg, id=823, 813.0375pt x 1626.075pt>
 File: rys/punkt6/aparat.jpg Graphic file (type jpg)
 <use rys/punkt6/aparat.jpg>
-Package pdftex.def Info: rys/punkt6/aparat.jpg  used on input line 359.
+Package pdftex.def Info: rys/punkt6/aparat.jpg  used on input line 363.
 (pdftex.def)             Requested size: 813.03552pt x 1626.07104pt.
 
 
@@ -1858,10 +1845,10 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-10.48892pt}.
 
 [52 <./rys/punkt6/aparat.jpg>]
-<rys/punkt6/aparat1.jpg, id=818, 731.73375pt x 1626.075pt>
+<rys/punkt6/aparat1.jpg, id=830, 731.73375pt x 1626.075pt>
 File: rys/punkt6/aparat1.jpg Graphic file (type jpg)
 <use rys/punkt6/aparat1.jpg>
-Package pdftex.def Info: rys/punkt6/aparat1.jpg  used on input line 373.
+Package pdftex.def Info: rys/punkt6/aparat1.jpg  used on input line 377.
 (pdftex.def)             Requested size: 731.73196pt x 1626.07104pt.
 
 
@@ -1873,10 +1860,10 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-10.48892pt}.
 
 [53 <./rys/punkt6/aparat1.jpg>]
-<rys/punkt6/aparat2.jpg, id=825, 731.73375pt x 1626.075pt>
+<rys/punkt6/aparat2.jpg, id=837, 731.73375pt x 1626.075pt>
 File: rys/punkt6/aparat2.jpg Graphic file (type jpg)
 <use rys/punkt6/aparat2.jpg>
-Package pdftex.def Info: rys/punkt6/aparat2.jpg  used on input line 386.
+Package pdftex.def Info: rys/punkt6/aparat2.jpg  used on input line 390.
 (pdftex.def)             Requested size: 731.73196pt x 1626.07104pt.
 
 
@@ -1888,10 +1875,10 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-10.48892pt}.
 
 [54 <./rys/punkt6/aparat2.jpg>]
-<rys/punkt6/menu8.jpg, id=832, 813.0375pt x 1626.075pt>
+<rys/punkt6/menu8.jpg, id=844, 813.0375pt x 1626.075pt>
 File: rys/punkt6/menu8.jpg Graphic file (type jpg)
 <use rys/punkt6/menu8.jpg>
-Package pdftex.def Info: rys/punkt6/menu8.jpg  used on input line 401.
+Package pdftex.def Info: rys/punkt6/menu8.jpg  used on input line 405.
 (pdftex.def)             Requested size: 813.03552pt x 1626.07104pt.
 
 
@@ -1903,10 +1890,10 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-10.48892pt}.
 
 [55 <./rys/punkt6/menu8.jpg>]
-<rys/punkt6/wyniki.jpg, id=840, 813.0375pt x 1626.075pt>
+<rys/punkt6/wyniki.jpg, id=852, 813.0375pt x 1626.075pt>
 File: rys/punkt6/wyniki.jpg Graphic file (type jpg)
 <use rys/punkt6/wyniki.jpg>
-Package pdftex.def Info: rys/punkt6/wyniki.jpg  used on input line 414.
+Package pdftex.def Info: rys/punkt6/wyniki.jpg  used on input line 418.
 (pdftex.def)             Requested size: 813.03552pt x 1626.07104pt.
 
 
@@ -1918,15 +1905,15 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-10.48892pt}.
 
 [56 <./rys/punkt6/wyniki.jpg>]
-<rys/punkt6/wyniki1.jpg, id=848, 813.0375pt x 1626.075pt>
+<rys/punkt6/wyniki1.jpg, id=860, 813.0375pt x 1626.075pt>
 File: rys/punkt6/wyniki1.jpg Graphic file (type jpg)
 <use rys/punkt6/wyniki1.jpg>
-Package pdftex.def Info: rys/punkt6/wyniki1.jpg  used on input line 427.
+Package pdftex.def Info: rys/punkt6/wyniki1.jpg  used on input line 432.
 (pdftex.def)             Requested size: 813.03552pt x 1626.07104pt.
-<rys/punkt6/wyniki2.png, id=850, 813.0375pt x 1626.075pt>
+<rys/punkt6/wyniki2.png, id=862, 813.0375pt x 1626.075pt>
 File: rys/punkt6/wyniki2.png Graphic file (type png)
 <use rys/punkt6/wyniki2.png>
-Package pdftex.def Info: rys/punkt6/wyniki2.png  used on input line 437.
+Package pdftex.def Info: rys/punkt6/wyniki2.png  used on input line 442.
 (pdftex.def)             Requested size: 813.03552pt x 1626.07104pt.
 )
 
@@ -1938,6 +1925,17 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-10.48892pt}.
 
 [57 <./rys/punkt6/wyniki1.jpg> <./rys/punkt6/wyniki2.png>]
+Overfull \hbox (28.2744pt too wide) in paragraph at lines 79--79
+\OT4/cmtt/m/n/12 dlaczego -[] warto -[] znac -[] systemy -[] kontroli -[] wersj
+i -[] kodu/$[][] \OT4/cmr/m/n/12 (term. wiz. 09.11.2022). 
+ []
+
+
+Overfull \hbox (23.43639pt too wide) in paragraph at lines 79--79
+[][]$\OT4/cmtt/m/n/12 https : / / developer . android . com / develop / ui / vi
+ews / components / radiobutton$[][]
+ []
+
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 22.48892pt, for example:
@@ -1999,10 +1997,10 @@ Package logreq Info: Writing requests to 'dokument.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 25932 strings out of 475071
- 443112 string characters out of 5782907
- 1354186 words of memory out of 5000000
- 46523 multiletter control sequences out of 15000+600000
+ 25947 strings out of 475071
+ 443504 string characters out of 5782907
+ 1354324 words of memory out of 5000000
+ 46532 multiletter control sequences out of 15000+600000
  487683 words of font info for 83 fonts, out of 8000000 for 9000
  1142 hyphenation exceptions out of 8191
  77i,11n,80p,1238b,1996s stack positions out of 10000i,1000n,20000p,200000b,200000s
@@ -2021,10 +2019,10 @@ ublic/pl/plssbx10.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/pl/plti10.
 pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/pl/plti12.pfb><c:/texlive/20
 22/texmf-dist/fonts/type1/public/pl/pltt10.pfb><c:/texlive/2022/texmf-dist/font
 s/type1/public/pl/pltt12.pfb>
-Output written on dokument.pdf (62 pages, 11247094 bytes).
+Output written on dokument.pdf (62 pages, 11256381 bytes).
 PDF statistics:
- 1107 PDF objects out of 1200 (max. 8388607)
- 953 compressed objects within 10 object streams
- 369 named destinations out of 1000 (max. 500000)
+ 1125 PDF objects out of 1200 (max. 8388607)
+ 971 compressed objects within 10 object streams
+ 375 named destinations out of 1000 (max. 500000)
  505 words of extra memory for PDF output out of 10000 (max. 10000000)
 

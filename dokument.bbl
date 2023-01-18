@@ -19,14 +19,62 @@
 
 \refsection{0}
   \datalist[entry]{none/global//global/global}
-    \entry{www1}{online}{}
+    \entry{www}{online}{}
       \field{sortinit}{1}
       \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
       \field{labeltitlesource}{title}
-      \field{title}{Strona internetowa Android Developers}
+      \field{title}{Język programowania Java - więcej informacji}
+      \field{urlday}{9}
+      \field{urlmonth}{11}
+      \field{urlyear}{2022}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://geek.justjoin.it/wszystko-co-musicie-wiedziec-o-jezyku-java-co-to-dla-kogo-i-ile-zarobimy/
+      \endverb
+      \verb{url}
+      \verb https://geek.justjoin.it/wszystko-co-musicie-wiedziec-o-jezyku-java-co-to-dla-kogo-i-ile-zarobimy/
+      \endverb
+    \endentry
+    \entry{www2}{online}{}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labeltitlesource}{title}
+      \field{title}{Latex - więcej informacji}
+      \field{urlday}{9}
+      \field{urlmonth}{11}
+      \field{urlyear}{2022}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb http://smurf.mimuw.edu.pl/node/1306
+      \endverb
+      \verb{url}
+      \verb http://smurf.mimuw.edu.pl/node/1306
+      \endverb
+    \endentry
+    \entry{www3}{online}{}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{labeltitlesource}{title}
+      \field{title}{Git - więcej informacji}
+      \field{urlday}{9}
+      \field{urlmonth}{11}
+      \field{urlyear}{2022}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://expose.pl/czym-jest-git-i-dlaczego-warto-znac-systemy-kontroli-wersji-kodu/
+      \endverb
+      \verb{url}
+      \verb https://expose.pl/czym-jest-git-i-dlaczego-warto-znac-systemy-kontroli-wersji-kodu/
+      \endverb
+    \endentry
+    \entry{www4}{online}{}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{labeltitlesource}{title}
+      \field{title}{Strona internetowa Android Developers - przykład użycia Radio Group}
       \field{urlday}{25}
       \field{urlmonth}{11}
-      \field{urlyear}{2012}
+      \field{urlyear}{2022}
       \field{urldateera}{ce}
       \verb{urlraw}
       \verb https://developer.android.com/develop/ui/views/components/radiobutton

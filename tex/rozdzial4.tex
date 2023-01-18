@@ -42,7 +42,7 @@ Aby zaimplementować tryb ciemny potrzebujemy dostępu do modyfikowania \\ inter
 \end{lstlisting}
 
 
- Listing \ref{lst:listing-java4} (s. \pageref{lst:listing-java4}) przedstawia metodę odpowiedzialną za działanie trybu ciemnego. Domyślnie aplikacja korzysta z trybu jansego, co pokazuje kod od 5 do 10 linijki. Jednak po naciśnięciu na przycisku, zmieniamy kolorystyke aplikacji na ciemną (13-15 linijka), dodatkowo od 16 linijki zmieniamy przycisk na czerwony, aktualne logo na ciemne oraz wyświetlamy stosowny komunikat.
+ Listing \ref{lst:listing-java4} (s. \pageref{lst:listing-java4}) przedstawia metodę odpowiedzialną za działanie trybu ciemnego. Domyślnie aplikacja korzysta z trybu jasnego, co pokazuje kod od 5 do 10 linijki. Jednak po naciśnięciu na przycisku, zmieniamy kolorystykę aplikacji na ciemną (13-15 linijka), dodatkowo od 16 linijki zmieniamy przycisk na czerwony, aktualne logo na ciemne oraz wyświetlamy stosowny komunikat.
 \begin{lstlisting}[caption=Tryb Ciemny - Włączenie/wyłączenie trybu ciemnego, label={lst:listing-java4}, language=Java]
 	toggle_tryb_ciemny.setOnClickListener(new View.OnClickListener() {
 		@Override
@@ -110,7 +110,7 @@ Aby wdrożyć test aplikacji trzeba sprawdzić pozwolenie, w tym wypadku interes
 \newpage
 
 
-Metoda onLocationChanged przedstawiona jako listing \ref{lst:listing-java8} (s. \pageref{lst:listing-java8}) odpowiada za wyświetlenie powiadomienia push-up wyświetlającego długość oraz szerokość geograficzną obecnej lokalizacji oraz pobiera adres tej lokalizacji na podstawie długości i szerokości geograficznej, który wyświetla jako tekst.
+Metoda onLocationChanged przedstawiona jako listing \ref{lst:listing-java8} (s. \pageref{lst:listing-java8}) odpowiada za wyświetlenie powiadomienia pop-up wyświetlającego długość oraz szerokość geograficzną obecnej lokalizacji oraz pobiera adres tej lokalizacji na podstawie długości \\ i szerokości geograficznej, który wyświetla jako tekst.
 \begin{lstlisting}[caption=GPS - Wyświetlanie lokalizacji, label={lst:listing-java8}, language=Java]
 	@Override
 	public void onLocationChanged(Location location) {
@@ -127,7 +127,7 @@ Metoda onLocationChanged przedstawiona jako listing \ref{lst:listing-java8} (s. 
 \end{lstlisting}
 
 
-Listing \ref{lst:listing-java9} (s. \pageref{lst:listing-java9}) przedstawia implementacje MediaPlayer (linijka 1) do którego podłączamy dźwięk. Teraz w prosty sposób możemy wywołać dźwięk poprzez medote OnClick.
+Listing \ref{lst:listing-java9} (s. \pageref{lst:listing-java9}) przedstawia implementacje MediaPlayer (linijka 1) do którego podłączamy dźwięk. Teraz w prosty sposób możemy wywołać dźwięk poprzez metodę OnClick.
 \begin{lstlisting}[caption= Dźwięk - Działanie z wykorzystaniem MediaPlayer, label={lst:listing-java9}, language=Java]
 	final MediaPlayer sound = MediaPlayer.create(this, R.raw.dzwiek_audio);
 	Button btn_dzwiek = findViewById(R.id.btn_dzwiek);
@@ -205,7 +205,7 @@ Obiekt MediaPlayer wykorzystany w listingu \ref{lst:listing-java13} (s. \pageref
 
 \newpage
 
-Metoda przedstawiona na listingu \ref{lst:listing-java14} (s. \pageref{lst:listing-java14}), odpowiada za uruchomienie aparatu w telefonie po naciśnięciu przycisku o id btnCam. Od 6 do 8 linijki znajduję się kod opowiedzialny za uruchomienie aplikacji aparatu.
+Metoda przedstawiona na listingu \ref{lst:listing-java14} (s. \pageref{lst:listing-java14}), odpowiada za uruchomienie aparatu w telefonie po naciśnięciu przycisku o id btnCam. Od 6 do 8 linijki znajduję się kod odpowiedzialny za uruchomienie aplikacji aparatu.
 \begin{lstlisting}[caption=Aparat - Włączenie aparatu, label={lst:listing-java14}, language=Java]
 	btnCam = findViewById(R.id.btnCam);
 	btnCam.setOnClickListener(new View.OnClickListener() {
@@ -222,7 +222,7 @@ Metoda przedstawiona na listingu \ref{lst:listing-java14} (s. \pageref{lst:listi
 	});
 \end{lstlisting}
 
-Pętla switch (rozpoczynająca się w linijce 6) przedstawiona w listingu \ref{lst:listing-java15} (s. \pageref{lst:listing-java15}) odpowiada za informowanie użytkowanika o aktualnym statusie wifi. W linijce 7 sprawdzamy czy Wifi jest włączone, jeśli jest włączone - wyświetlamy odpowiedni tekst, w 10 linijce sprawdzamy czy wifi jest wyłączone na danym urządzeniu, jeśli tak zostaje wyświetlony adekwatny tekst.
+Pętla switch (początek w linijce 6) przedstawiona w listingu \ref{lst:listing-java15} (s. \pageref{lst:listing-java15}) odpowiada za informowanie użytkownika o aktualnym statusie wifi. W linijce 7 sprawdzamy czy wifi jest włączone, jeśli jest włączone - wyświetlamy odpowiedni tekst, w 10 linijce sprawdzamy czy wifi jest wyłączone na danym urządzeniu, jeśli tak zostaje wyświetlony adekwatny tekst.
 \begin{lstlisting}[caption=Wifi - Sprawdzenie statusu Wifi, label={lst:listing-java15}, language=Java]
 	private BroadcastReceiver wifiStateReceiver = new BroadcastReceiver() {
 		@Override
@@ -243,7 +243,7 @@ Pętla switch (rozpoczynająca się w linijce 6) przedstawiona w listingu \ref{l
 
 \newpage
 
-Metoda przedstawiona na listingu \ref{lst:listing-java16} (s. \pageref{lst:listing-java16}) odpowiada za pobranie informacji o sieci wifi do której urządzenie jest obecnie podłączone oraz wyświetlenia tych informacji. Od 5 do 9 linijki mamy kolejno pobranie informacji o adresie IP telefonu, sformatowanie pobranego IP ma tekst, pobranie adresu MAC routera, SSID oraz wskaźnika mocy naszego połączenia. Pobrane informacje implementujmey jako string (od 11 do 15 linijki) i wyświetlamy jako tekst (linijka 17).
+Metoda przedstawiona na listingu \ref{lst:listing-java16} (s. \pageref{lst:listing-java16}) odpowiada za pobranie informacji o sieci wifi do której urządzenie jest obecnie podłączone oraz wyświetlenia tych informacji. Od 5 do 9 linijki mamy kolejno pobranie informacji o adresie IP telefonu, sformatowanie pobranego IP ma tekst, pobranie adresu MAC routera, SSID oraz wskaźnika mocy naszego połączenia. Pobrane informacje implementujemy jako string (od 11 do 15 linijki) i wyświetlamy jako tekst (linijka 17).
 \begin{lstlisting}[caption=Wifi - Pobieranie informacji o Wifi, label={lst:listing-java16}, language=Java]
     public void getWifiInformation(View view) {
 	WifiManager wifiManager = (WifiManager) getApplicationContext().getSystemService(WIFI_SERVICE);
@@ -265,7 +265,7 @@ Metoda przedstawiona na listingu \ref{lst:listing-java16} (s. \pageref{lst:listi
 \end{lstlisting}
 
 
-Kod ukazany w listingu \ref{lst:listing-java17} (s. \pageref{lst:listing-java17}) jest odpowiedzialny za pobranie marki i modeu urządzenia z którego obecnie korzystamy i wyświetlenie tej informacji jako tekst.
+Kod ukazany w listingu \ref{lst:listing-java17} (s. \pageref{lst:listing-java17}) jest odpowiedzialny za pobranie marki i modelu urządzenia z którego obecnie korzystamy i wyświetlenie tej informacji jako tekst.
 \begin{lstlisting}[caption=Wyniki - Pobranie marki i modelu urządzenia, label={lst:listing-java17}, language=Java]
 	model = (TextView) findViewById(R.id.model);
 	String stringBuildModel = "Marka i model: " + Build.MANUFACTURER + " " + Build.MODEL;
@@ -275,7 +275,7 @@ Kod ukazany w listingu \ref{lst:listing-java17} (s. \pageref{lst:listing-java17}
 \newpage
 
 
-Listing \ref{lst:listing-java18} (s. \pageref{lst:listing-java18}) ukazuje kawałek layoutu strony z wynikami, użyto tutaj~Radio Group\footnote{Android Developers - przykład użycia Radio Group\cite{www1}.}. Grupując przyciski, dostajemy gwarancję że w danej chwili będzie można wybrać tylko jeden przycisk radio.
+Listing \ref{lst:listing-java18} (s. \pageref{lst:listing-java18}) ukazuje kawałek layoutu strony z wynikami, użyto tutaj~Radio Group\footnote{Android Developers - przykład użycia Radio Group\cite{www4}.}. Grupując przyciski, dostajemy gwarancję że w danej chwili będzie można wybrać tylko jeden przycisk radio.
 \begin{lstlisting}[caption=Wyniki - Radio Group, label={lst:listing-java18}, language=Java]
 	<RadioGroup
 	android:id="@+id/test1"
